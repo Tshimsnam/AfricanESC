@@ -1,3 +1,107 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fortawesome/fontawesome-free/css/all.css';
+@import 'aos/dist/aos.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.title-font {
+    font-family: 'Playfair Display', serif;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.floating {
+    animation: floating 6s ease-in-out infinite;
+}
+
+.leaf-bg {
+    background-image: url('/public/images/forest-7186456_640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sparkle {
+    position: relative;
+    overflow: hidden;
+}
+
+.sparkle::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(to bottom right,
+            rgba(255, 255, 255, 0) 45%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(255, 255, 255, 0) 55%);
+    transform: rotate(30deg);
+    animation: sparkle 4s infinite;
+}
+
+/* Animation du logo */
+.floating {
+    animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Menu mobile */
+.mobile-menu {
+    transition: all 0.3s ease;
+}
+
+/* Style spécifique pour la navigation */
+#navbar {
+    transition: all 0.3s ease;
+}
+
+.title-font {
+    font-family: 'Playfair Display', serif;
+}
+
+@keyframes sparkle {
+    0% {
+        transform: translate(-100%, -100%) rotate(30deg);
+    }
+
+    100% {
+        transform: translate(100%, 100%) rotate(30deg);
+    }
+}
