@@ -119,7 +119,7 @@
         <div class="text-center mt-16" data-aos="fade-up">
             <a href="#"
                 class="inline-flex items-center px-8 py-4 bg-green-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                <i class="fas fa-leaf mr-3"></i> Voir toutes nos solutions
+                <i class="fas fa-leaf mr-3"></i> See All Our Solutions
             </a>
         </div>
     </div>

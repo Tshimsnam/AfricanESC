@@ -10,7 +10,7 @@
     <!-- Actions Section -->
     @include('partials.action')
     <!-- Testimonials Section -->
-    @include('partials.testimonials')
+    {{-- @include('partials.testimonials') --}}
     <!-- Newsletter Section with Floating Elements -->
     @include('partials.newsletter')
     <!-- Contact Section -->

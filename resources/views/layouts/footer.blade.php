@@ -8,7 +8,7 @@
                         <span class="title-font text-xl font-bold">AfricanESC</span>
                     </div>
                     <p class="text-green-300 text-sm mb-4">
-                        Engagés pour un avenir durable avec des solutions écologiques innovantes et accessibles à tous.
+                        The African for the Environment and Sustainable Development Consulting (AES Consulting), work for a better future.
                     </p>
                     <div class="flex space-x-4">
                         <a href="#" class="text-green-300 hover:text-white transition duration-300">
@@ -30,7 +30,7 @@
                     <h4 class="text-lg font-bold mb-4">Navigation</h4>
                     <ul class="space-y-2">
                         <li><a href="#" class="text-green-300 hover:text-white transition duration-300">Accueil</a></li>
-                        <li><a href="#missions" class="text-green-300 hover:text-white transition duration-300">Missions</a></li>
+                        <li><a href="#missions" class="text-green-300 hover:text-white transition duration-300">Services</a></li>
                         <li><a href="#solutions" class="text-green-300 hover:text-white transition duration-300">Solutions</a></li>
                         <li><a href="#actions" class="text-green-300 hover:text-white transition duration-300">Actions</a></li>
                         <li><a href="#contact" class="text-green-300 hover:text-white transition duration-300">Contact</a></li>
@@ -62,15 +62,15 @@
                 </div>
             </div>
 
-            <div class="border-t border-green-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="border-t border-green-800 pt-8 flex flex-col md:flex-row justify-center items-center">
                 <p class="text-green-400 text-sm">
-                    &copy; {{ date('Y') }} AfricanESC. Tous droits réservés.
+                    &copy; {{ date('Y') }} AfricanESC. All Rights Reserved.
                 </p>
-                <div class="flex space-x-6 mt-4 md:mt-0">
+                {{-- <div class="flex space-x-6 mt-4 md:mt-0">
                     <a href="#" class="text-green-400 hover:text-white transition duration-300 text-sm">Mentions légales</a>
                     <a href="#" class="text-green-400 hover:text-white transition duration-300 text-sm">Politique de confidentialité</a>
                     <a href="#" class="text-green-400 hover:text-white transition duration-300 text-sm">Conditions d'utilisation</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </footer>

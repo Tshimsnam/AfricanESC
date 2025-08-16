@@ -105,3 +105,37 @@ body {
         transform: translate(100%, 100%) rotate(30deg);
     }
 }
+
+.floating {
+    animation: floating 8s ease-in-out infinite;
+}
+
+.floating-2 {
+    animation: floating 6s ease-in-out infinite 2s;
+}
+
+.floating-3 {
+    animation: floating 10s ease-in-out infinite 1s;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.slide-arrow {
+    backdrop-filter: blur(2px);
+}
+
+.slide-arrow:hover {
+    transform: translateY(-50%) scale(1.1);
+}   

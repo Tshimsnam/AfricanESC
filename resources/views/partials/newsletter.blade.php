@@ -16,14 +16,14 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
             <div class="text-center" data-aos="fade-up">
                 <h2 class="title-font text-4xl md:text-5xl font-bold mb-6">
-                    Restez <span class="text-green-200">connectés</span>
+                    OUR <span class="text-green-200">MISSION</span>
                 </h2>
                 <div class="w-20 h-1 bg-green-200 mx-auto mb-6"></div>
                 <p class="text-xl text-green-100 max-w-3xl mx-auto mb-10">
-                    Recevez nos conseils écologiques, actualités et offres spéciales directement dans votre boîte mail.
+                    Contribute to Sustainable Development of Africa.
                 </p>
 
-                <form class="max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
+                {{-- <form class="max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
                     <div class="flex flex-col sm:flex-row gap-4">
                         <input type="email" placeholder="Votre email"
                             class="flex-grow px-6 py-4 rounded-full focus:outline-none focus:ring-2 focus:ring-green-300 text-gray-900">
@@ -35,7 +35,7 @@
                     <p class="mt-4 text-sm text-green-200">
                         Nous respectons votre vie privée. Vous pouvez vous désabonner à tout moment.
                     </p>
-                </form>
+                </form> --}}
             </div>
         </div>
     </section>
