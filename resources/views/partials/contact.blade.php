@@ -26,7 +26,8 @@
                         </div>
                         <div>
                             <h4 class="text-lg font-medium text-gray-900">UK Office</h4>
-                            <p class="text-gray-600">19 St Christopher Ways, Pride Park, Derby, DE24 8JY, England, United Kingdom</p>
+                            <p class="text-gray-600">19 St Christopher Ways, Pride Park, Derby, DE24 8JY, England,
+                                United Kingdom</p>
                         </div>
                     </div>
                     <div class="flex items-start">
@@ -36,7 +37,7 @@
                         </div>
                         <div>
                             <h4 class="text-lg font-medium text-gray-900">DRC Office</h4>
-                            <p class="text-gray-600">8 AV. Du Commerce,  Gombe,  KINSHASA </p>
+                            <p class="text-gray-600">8 AV. Du Commerce, Gombe, KINSHASA </p>
                         </div>
                     </div>
 
@@ -105,46 +106,101 @@
             <!-- Contact Form -->
             <div class="bg-white rounded-xl shadow-md p-8" data-aos="fade-left">
                 <h3 class="text-2xl font-bold text-gray-900 mb-6">Send us a message</h3>
-                <form>
+                <form method="POST" action="{{ route('contact.send') }}">
+                    @csrf
                     <div class="grid grid-cols-1 gap-6">
                         <div>
                             <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                            <input type="text" id="name"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300">
+                            <input type="text" id="name" name="name"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300"
+                                required>
                         </div>
 
                         <div>
                             <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                            <input type="email" id="email"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300">
+                            <input type="email" id="email" name="email"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300"
+                                required>
                         </div>
 
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                            <select id="subject"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300">
-                                <option>I would like to become a volunteer</option>
-                                <option>I would like to make a donation</option>
-                                <option>Question about your solutions</option>
-                                <option>Other request</option>
+                            <select id="subject" name="subject"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300"
+                                required>
+                                <option value="I would like to become a volunteer">I would like to become a volunteer
+                                </option>
+                                <option value="I would like to make a donation">I would like to make a donation</option>
+                                <option value="Question about your solutions">Question about your solutions</option>
+                                <option value="Other request">Other request</option>
                             </select>
                         </div>
 
                         <div>
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                            <textarea id="message" rows="5"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300"></textarea>
+                            <textarea id="message" name="message" rows="5"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition duration-300"
+                                required></textarea>
                         </div>
-
                         <div>
-                            <button type="submit"
+                            @if (session('success'))
+                                <div class="mb-4 p-4 bg-green-100 text-green-700 rounded">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+
+                            @if ($errors->any())
+                                <div class="mb-4 p-4 bg-red-100 text-red-700 rounded">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
+                        </div>
+                        <div>
+                            <button type="submit" id="submitBtn"
                                 class="w-full px-6 py-4 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-1 transition duration-300">
-                                Send message
+                                <span id="btnText">Send message</span>
+                                <span id="spinner" class="hidden">
+                                    <!-- Icône de chargement (optionnelle) -->
+                                    <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white inline-block"
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10"
+                                            stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor"
+                                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                                        </path>
+                                    </svg>
+                                    Sending...
+                                </span>
                             </button>
                         </div>
+
                     </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+
+<script>
+document.querySelector('form').addEventListener('submit', function(e) {
+    const btn = document.getElementById('submitBtn');
+    const btnText = document.getElementById('btnText');
+    const spinner = document.getElementById('spinner');
+
+    // Désactive le bouton pour éviter les doubles clics
+    btn.disabled = true;
+
+    // Affiche le spinner et change le texte
+    btnText.classList.add('hidden');
+    spinner.classList.remove('hidden');
+
+    // Optionnel: Change le style pendant l'envoi
+    btn.classList.remove('bg-green-600', 'hover:bg-green-700');
+    btn.classList.add('bg-green-500');
+});
+</script>

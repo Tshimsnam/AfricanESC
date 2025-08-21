@@ -23,7 +23,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-hard-hat"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Mines</h3>
@@ -35,7 +35,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-tractor"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Agro industries</h3>
@@ -56,7 +56,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-bolt"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Energy</h3>
@@ -68,7 +68,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-fire"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Hydrocarbon</h3>
@@ -89,7 +89,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-graduation-cap"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Education</h3>
@@ -101,7 +101,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-bridge"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Infrastructures</h3>
@@ -122,7 +122,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-mountain"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Geotechnical</h3>
@@ -134,7 +134,7 @@
                     <div class="flex items-start mb-6">
                         <div
                             class="flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 text-green-600 text-xl mr-4">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-server"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-2">Information Technology</h3>
