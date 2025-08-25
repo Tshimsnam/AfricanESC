@@ -171,29 +171,135 @@ const translations = {
         'nav.brochure': 'Télécharger la Brochure',
         'nav.language': 'Langue',
 
-        // Hero Section
-        'hero.title1': 'Consulting Environnemental Africain',
-        'hero.title2': 'et Développement Durable',
-        'hero.subtitle': 'Rejoignez notre mouvement pour un avenir durable avec des solutions écologiques innovantes',
-        'hero.cta.join': 'Nous rejoindre',
-        'hero.cta.discover': 'Découvrir',
+        // Hero Section Biodiversity
+        'hero.Biodiversity': 'Biodiversité &',
+        'hero.Environmental': 'et Développement Durable',
+        'hero.Safeguarding': 'Sauvegarder le patrimoine naturel de l\'Afrique',
 
-        // Services Cards
+        //hero section Social
+        'hero.social':'Responsabilité sociale &',
+        'hero.communities':'communautés',
+        'hero.empowering':'Autonomiser les communautés, garantir l’équité',
+
+         //hero section water
+        'hero.water':'Eau &',
+        'hero.hydro':'Hydrogéologie',
+        'hero.smart':'Solutions d\'eau intelligentes pour l\'Afrique',
+
+        //hero section industries
+        'hero.sustainable':'Industries',
+        'hero.industries':'Durable',
+        'hero.responsible':'Extraction responsable, avenirs renouvelables',
+
+        //services text
+        'services1':"Nos",
+        'services2':"services",
+        'services3':"African for the Environment and Sustainable Development Consulting (AES Consulting) œuvre pour un avenir meilleur en offrant des services de haute qualité et des solutions spécifiques dans les domaines suivants :",
+
+        // Services biophysique
         'services.bio.title': 'ENVIRONNEMENT BIOPHYSIQUE',
         'services.bio.desc': 'Évaluations environnementales complètes et stratégies d\'atténuation',
+        'env.study':'Étude environnementale',
+        'env.management':'Plan de gestion environnementale',
         'services.view_all': 'Voir tout',
 
+        // Modal Bio Environment
+        'modal.bio.title': 'Environnement Biophysique',
+        'modal.close': 'Fermer',
+
+        'services.bio.item1': 'Étude environnementale',
+        'services.bio.item2': 'Plan de gestion environnementale (pour exploitation industrielle et minière artisanale)',
+        'services.bio.item3': 'Évaluation de la faune et de la flore',
+        'services.bio.item4': 'Évaluation des milieux aquatiques et humides',
+        'services.bio.item5': 'Évaluation environnementale et sociale stratégique',
+        'services.bio.item6': 'Enquêtes RSPO (Table Ronde pour l\'Huile de Palme Durable)',
+        'services.bio.item7': 'Évaluation de la Haute Valeur de Conservation des espèces biologiques',
+        'services.bio.item8': 'Plan de compensation biodiversité',
+        'services.bio.item9': 'Plan d\'action pour la biodiversité',
+        'services.bio.item10': 'Plan de réhabilitation et de fermeture des sites contaminés',
+        'services.bio.item11': 'Audit environnemental',
+        'services.bio.item12': 'Due Diligence pour les risques environnementaux et sociaux',
+        'services.bio.item13': 'Rapport de conformité',
+        'services.bio.item14': 'Rapport d\'activité',
+
+        //services social
         'services.social.title': 'ENVIRONNEMENT SOCIAL',
-        'services.social.desc': 'Relations communautaires et développement social durable',
+        'services.social.desc': 'Favoriser l’harmonie entre l’entreprise et la communauté',
+        'socio-economic':'Évaluation de l’impact socio-économique',
+        'resettlement':'Plan d’action de réinstallation',
+        'social.close':'Voir tout',
 
+        //modal social environement
+        'modal.social.title': 'Environnement Social',
+
+        'services.social.item1': 'Évaluation d\'impact socio-économique',
+        'services.social.item2': 'Plan d\'action de réinstallation',
+        'services.social.item3': 'Plan de gestion sociale',
+        'services.social.item4': 'Développement de politiques de Responsabilité Sociale d\'Entreprise',
+        'services.social.item5': 'Audit de conformité aux standards sociaux',
+        'services.social.item6': 'Rapport de durabilité',
+        'services.social.item7': 'Engagement des parties prenantes',
+        'services.social.item8': 'Gestion des relations communautaires',
+        'services.social.item9': 'Développement de mécanismes de gestion des conflits et des plaintes',
+        'services.social.item10': 'Évaluation des relations entre l\'entreprise et la communauté',
+        'services.social.item11': 'Plan de projet communautaire pour le développement durable',
+
+
+        //services Hydrogeologie & hydrologie
         'services.hydro.title': 'HYDROGÉOLOGIE & HYDROLOGIE',
-        'services.hydro.desc': 'Solutions intégrées de gestion des ressources en eau',
+        'services.hydro.desc': 'Ensemble, nous protégeons l’eau et favorisons une croissance durable.',
+        'groundwater':'Évaluation des flux d’eaux souterraines et de surface',
+        'execution':'Réalisation de forages d’eau potable',
+        'hydro.view':'Voir tout',
 
+        //modal hydrogeologie et hydrologie
+        'modal.hydro.title': 'HYDROGÉOLOGIE & HYDROLOGIE',
+
+        'services.hydro.item1': 'Évaluation des flux d\'eau souterraine et de surface',
+        'services.hydro.item2': 'Étude de faisabilité technique et financière pour le forage de puits et l\'installation de réseaux de distribution d\'eau',
+        'services.hydro.item3': 'Exécution de forages d\'eau potable',
+        'services.hydro.item4': 'Détermination des zones contaminées interdites au forage d\'eau potable',
+        'services.hydro.item5': 'Évaluation des risques pour le contrôle de la pollution',
+        'services.hydro.item6': 'Maintenance des forages d\'eau',
+        'services.hydro.item7': 'Tests de pompage et détermination du niveau de flux d\'eau des forages',
+        'services.hydro.item8': 'Surveillance des travaux de forage d\'eau',
+        'services.hydro.item9': 'Surveillance de la qualité de l\'eau',
+        'services.hydro.item10': 'Gestion et évaluation des eaux pluviales',
+        'services.hydro.item11': 'Évaluation d\'impact hydrogéologique',
+        'services.hydro.item12': 'Évaluation hydrologique et hydraulique des bassins versants',
+
+        //service geotechnic
         'services.geo.title': 'GÉOTECHNIQUE',
-        'services.geo.desc': 'Études techniques des sols et foundations',
+        'services.geo.desc': 'Garantir un sol sûr et stable pour chaque projet.',
+        'surveys':'Études et essais sur site.',
+        'rock':'Mécanique des roches, béton et sols',
+        //modal geotechnic
+        'modal.geo.title': 'GÉOTECHNIQUE',
 
+        'services.geo.item1': 'Études et essais sur site',
+        'services.geo.item2': 'Caractérisation et échantillonnage des sols : forage au diamant, tests destructifs, tarière, pelle',
+        'services.geo.item3': 'Tests mécaniques : pénétromètre statique et dynamique, SPT',
+        'services.geo.item4': 'Tests en laboratoire',
+        'services.geo.item5': 'Identification des sols',
+        'services.geo.item6': 'Caractérisation des sols',
+        'services.geo.item7': 'Mécanique des roches ; béton et sol',
+
+        //service formation
         'services.training.title': 'FORMATION',
-        'services.training.desc': 'Programmes de renforcement des capacités',
+        'services.training.desc': 'Renforcer les compétences pour la croissance.',
+        'environ.maneg':'Gestion environnementale.',
+        'health':'Santé et sécurité au travail',
+        'health.view':'Voir tout',
+
+        //modal formation
+         'modal.training.title': 'FORMATION',
+
+        'services.training.item1': 'Gestion environnementale',
+        'services.training.item2': 'Santé et Sécurité au travail',
+        'services.training.item3': 'Développement d\'Études d\'Impact Environnemental et Social (EIES), Études de Faisabilité',
+        'services.training.item4': 'Conception et Gestion de Projet',
+        'services.training.item5': 'Audit et Système de Management Environnemental et Social',
+        'services.training.item6': 'Autres logiciels disponibles dans notre système de réseau informatique',
 
         // Modal Services Details
         'modal.bio.title': 'Environnement Biophysique',
@@ -201,6 +307,7 @@ const translations = {
         'modal.hydro.title': 'Hydrogéologie & Hydrologie',
         'modal.geo.title': 'Géotechnique',
         'modal.training.title': 'Formation',
+        'geotechnic.view':'Voir tout',
 
         // Sections
         'section.missions': 'Nos Missions',
@@ -230,29 +337,135 @@ const translations = {
         'nav.brochure': 'Download Brochure',
         'nav.language': 'Language',
 
-        // Hero Section
-        'hero.title1': 'African Environmental',
-        'hero.title2': 'and Sustainability Consulting',
-        'hero.subtitle': 'Join our movement for a sustainable future with innovative ecological solutions',
-        'hero.cta.join': 'Join Us',
-        'hero.cta.discover': 'Discover',
+        // Hero Section Biodiversity
+        'hero.Biodiversity': 'Biodiversity &',
+        'hero.Environmental': 'and Sustainability Consulting',
+        'hero.Safeguarding': 'Safeguarding Africa’s Natural Heritage',
+
+        //hero section Social
+        'hero.social':'Social Responsibility &',
+        'hero.communities':'Communities',
+        'hero.empowering':'Empowering Communities, Ensuring Equity',
+
+        //hero section water
+        'hero.water':'Water &',
+        'hero.hydro':'Hydrogeology',
+        'hero.smart': 'Smart Water Solutions for Africa',
+
+        //hero section
+        'hero.sustainable':'Sustainable',
+        'hero.industries':'Industries',
+        'hero.responsible':'Responsible Extraction, Renewable Futures',
+
+        //services text
+        'services1':"Our",
+        'services2':"Services",
+        'services3':"The African for the Environment and Sustainable Development Consulting (AES Consulting), work for a better future, by delivering high quality services and specific solutions in the following areas:",
 
         // Services Cards
         'services.bio.title': 'BIOPHYSICAL ENVIRONMENT',
-        'services.bio.desc': 'Comprehensive environmental assessments and mitigation strategies',
+        'services.bio.desc': 'Comprehensive environmental assessments and mitigation strategies.',
+        'env.study':'Environmental study',
+        'env.management':'Environmental Management Plan',
         'services.view_all': 'View All',
 
+        // Modal Bio Environment
+        'modal.bio.title': 'Biophysical Environment',
+        'modal.close': 'Close',
+
+        'services.bio.item1': 'Environmental study',
+        'services.bio.item2': 'Environmental Management Plan (both for industrial exploitation and artisanal and small scale mining)',
+        'services.bio.item3': 'Fauna and Flora Assessment',
+        'services.bio.item4': 'Aquatic and wetland Assessment',
+        'services.bio.item5': 'Strategic Environmental and Social Assessment',
+        'services.bio.item6': 'RSPO (Round Table for Sustainable Palm Oil) surveys',
+        'services.bio.item7': 'High Conservation Value of biological species Assessment',
+        'services.bio.item8': 'Biodiversity compensation/off set Plan',
+        'services.bio.item9': 'Biodiversity Action Plan',
+        'services.bio.item10': 'Rehabilitation and closure Plan of contaminated sites',
+        'services.bio.item11': 'Environmental audit',
+        'services.bio.item12': 'Due Diligence for Environmental and Social Risks',
+        'services.bio.item13': 'Compliance Report',
+        'services.bio.item14': 'Activity Report',
+
+        //services social
         'services.social.title': 'SOCIAL ENVIRONMENT',
-        'services.social.desc': 'Community relations and sustainable social development',
+        'services.social.desc': 'Fostering harmony between business and community.',
+        'socio-economic':'Socio-economic impact Assessment',
+        'resettlement':'Resettlement Action Plan',
+        'social.close':'View All',
+        //modal social environement
+        'modal.social.title': 'Social Environment',
 
+        'services.social.item1': 'Socio-economic impact Assessment',
+        'services.social.item2': 'Resettlement Action Plan',
+        'services.social.item3': 'Social Management Plan',
+        'services.social.item4': 'Development of Corporate Social Responsibility policies',
+        'services.social.item5': 'Compliance audit for social standards',
+        'services.social.item6': 'Sustainability Report',
+        'services.social.item7': 'Stakeholders Engagement',
+        'services.social.item8': 'Community Relations Management',
+        'services.social.item9': 'Development of mechanism for Conflict and Complaint Management',
+        'services.social.item10': 'Company and Community Relation Assessment',
+        'services.social.item11': 'Community Project Plan for Sustainable Development',
+
+        //Hydrogeology et hydrology
         'services.hydro.title': 'HYDROGEOLOGY & HYDROLOGY',
-        'services.hydro.desc': 'Integrated water resource management solutions',
+        'services.hydro.desc': 'Together, we protect water and promote sustainable growth.',
+        'groundwater':'Groundwater and surface water flux Assessment.',
+        'execution':'Execution of potable water drilling.',
+        'hydro.view':'View All',
 
+        //modal hydrogeology et hydrology
+        'modal.hydro.title': 'HYDROGEOLOGY & HYDROLOGY',
+
+        'services.hydro.item1': 'Groundwater and surface water flux Assessment',
+        'services.hydro.item2': 'Technical and financial feasibility study for borehole drilling and installation of water distribution networks',
+        'services.hydro.item3': 'Execution of potable water drilling',
+        'services.hydro.item4': 'Determination of contaminated areas prohibited for potable water drilling',
+        'services.hydro.item5': 'Risk Assessment for pollution control',
+        'services.hydro.item6': 'Maintenance of water borehole',
+        'services.hydro.item7': 'Pumping tests and determination of level of flux water of borehole',
+        'services.hydro.item8': 'Monitoring of water drilling works',
+        'services.hydro.item9': 'Water monitoring',
+        'services.hydro.item10': 'Stormwater Management and Assessment',
+        'services.hydro.item11': 'Hydrogeological Impact Assessment',
+        'services.hydro.item12': 'Hydrological and hydraulical Assessment of watersheds',
+
+        //services geotechnic
         'services.geo.title': 'GEOTECHNIC',
-        'services.geo.desc': 'Soil and foundation technical studies',
+        'services.geo.desc': 'Ensuring safe and stable ground for every project.',
+        'surveys':'Surveys and test in situ.',
+        'rock':'Rock mechanics; concrete and soil',
+        'geotechnic.view':'View All',
 
+        //modal geotechnic
+         'modal.geo.title': 'GEOTECHNIC',
+
+        'services.geo.item1': 'Surveys and test in situ',
+        'services.geo.item2': 'Soil feature and sampling: diamond drilling, destructive testing, auger, shovel',
+        'services.geo.item3': 'Mechanical tests: static and dynamic penetrometer, SPT',
+        'services.geo.item4': 'Laboratory tests',
+        'services.geo.item5': 'Soil identification',
+        'services.geo.item6': 'Soil feature',
+        'services.geo.item7': 'Rock mechanics; concrete and soil',
+
+        //service training
         'services.training.title': 'TRAINING',
-        'services.training.desc': 'Capacity building programs',
+        'services.training.desc': 'Empowering skills for growth.',
+        'environ.maneg':'Environmental management.',
+        'health':'Health and Safety at work.',
+        'health.view':'View All',
+
+        //modal training
+        'modal.training.title': 'TRAINING',
+
+        'services.training.item1': 'Environmental management',
+        'services.training.item2': 'Health and Safety at work',
+        'services.training.item3': 'Development of Environmental and Social Impact Assessment (ESIA), Feasibility Studies',
+        'services.training.item4': 'Project Conception & Management',
+        'services.training.item5': 'Auditing and Environmental and Social Management System',
+        'services.training.item6': 'Other software available in our IT network system',
 
         // Modal Services Details
         'modal.bio.title': 'Biophysical Environment',

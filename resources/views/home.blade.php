@@ -6,7 +6,7 @@
     <!-- Solutions Section with Parallax -->
     @include('partials.solution')
     <!-- Impact Section with Animated Counter -->
-    @include('partials.impact')
+    {{-- @include('partials.impact') --}}
     <!-- Actions Section -->
     @include('partials.action')
     <!-- Testimonials Section -->

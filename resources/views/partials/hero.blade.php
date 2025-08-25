@@ -10,20 +10,20 @@
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        <span class="inline-block transform hover:scale-105 transition duration-300">Biodiversity &
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.Biodiversity">Biodiversity &
                         </span>
                         <span
-                            class="inline-block transform hover:scale-105 transition duration-300 text-green-200">Environmental
+                            class="inline-block transform hover:scale-105 transition duration-300 text-green-200" data-translate="hero.Environmental">Environmental
                             Impact</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-green-100 mb-10 max-w-3xl mx-auto">
+                    <p class="text-xl md:text-2xl text-green-100 mb-10 max-w-3xl mx-auto" data-translate="hero.Safeguarding">
                         Safeguarding Africa’s Natural Heritage
                     </p>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 2 - Énergie -->
+        <!-- Slide 2 - social -->
         <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
            <div class="absolute inset-0 opacity-90 overflow-hidden">
                 <img src="{{ asset('images/social.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
@@ -32,19 +32,19 @@
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        <span class="inline-block transform hover:scale-105 transition duration-300">Social
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.social">Social
                             Responsibility &</span>
                         <span
-                            class="inline-block transform hover:scale-105 transition duration-300 text-blue-200">Communities</span>
+                            class="inline-block transform hover:scale-105 transition duration-300 text-blue-200" data-translate="hero.communities">Communities</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto">
+                    <p class="text-xl md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto" data-translate="hero.empowering">
                         Empowering Communities, Ensuring Equity
                     </p>
                 </div>
             </div>
         </div>
 
-        <!-- Slide 3 - Agriculture -->
+        <!-- Slide 3 - water -->
         <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
             <div class="absolute inset-0 opacity-90 overflow-hidden">
                 <img src="{{ asset('images/water.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
@@ -53,11 +53,11 @@
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        <span class="inline-block transform hover:scale-105 transition duration-300">Water & </span>
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.water">Water & </span>
                         <span
-                            class="inline-block transform hover:scale-105 transition duration-300 text-yellow-200">Hydrogeology</span>
+                            class="inline-block transform hover:scale-105 transition duration-300 text-yellow-200" data-translate="hero.hydro">Hydrogeology</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-yellow-100 mb-10 max-w-3xl mx-auto">
+                    <p class="text-xl md:text-2xl text-yellow-100 mb-10 max-w-3xl mx-auto" data-translate="hero.smart">
                         Smart Water Solutions for Africa
                     </p>
                 </div>
@@ -73,11 +73,11 @@
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
                 <div data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                        <span class="inline-block transform hover:scale-105 transition duration-300">Sustainable </span>
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.sustainable">Sustainable </span>
                         <span
-                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200">Industries</span>
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.industries">Industries</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-teal-100 mb-10 max-w-3xl mx-auto">
+                    <p class="text-xl md:text-2xl text-teal-100 mb-10 max-w-3xl mx-auto" data-translate="hero.responsible">
                         Responsible Extraction, Renewable Futures
                     </p>
                 </div>
