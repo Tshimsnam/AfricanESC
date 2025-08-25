@@ -3,8 +3,8 @@
     <div class="absolute inset-0 slider-container">
         <!-- Slide 1 - Nature -->
         <div class="absolute inset-0 slide active opacity-100 transition-opacity duration-1000">
-            <div
-                class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1511497584788-876760111969')] bg-cover bg-center opacity-90">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/foret.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-green-900 to-transparent opacity-80"></div>
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
@@ -19,20 +19,14 @@
                     <p class="text-xl md:text-2xl text-green-100 mb-10 max-w-3xl mx-auto">
                         Safeguarding Africa’s Natural Heritage
                     </p>
-                    <div class="flex justify-center gap-6">
-                        <a href="#actions"
-                            class="px-8 py-4 bg-white text-green-700 font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                            Take Action Now
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Slide 2 - Énergie -->
         <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
-            <div
-                class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d')] bg-cover bg-center opacity-90">
+           <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/social.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-blue-900 to-transparent opacity-80"></div>
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
@@ -46,20 +40,14 @@
                     <p class="text-xl md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto">
                         Empowering Communities, Ensuring Equity
                     </p>
-                    <div class="flex justify-center gap-6">
-                        <a href="#solutions"
-                            class="px-8 py-4 bg-white text-blue-700 font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                            Our solutions
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Slide 3 - Agriculture -->
         <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
-            <div
-                class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492496913980-501348b61469')] bg-cover bg-center opacity-90">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/water.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-yellow-900 to-transparent opacity-80"></div>
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
@@ -72,20 +60,14 @@
                     <p class="text-xl md:text-2xl text-yellow-100 mb-10 max-w-3xl mx-auto">
                         Smart Water Solutions for Africa
                     </p>
-                    <div class="flex justify-center gap-6">
-                        <a href="#formations"
-                            class="px-8 py-4 bg-white text-yellow-700 font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                            Our training
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Slide 4 - Eau -->
         <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
-            <div
-                class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1570804439975-69a6d8c05e3e')] bg-cover bg-center opacity-90">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/cariere.jpg') }}" alt="Forêt" class="w-full h-full object-cover">
             </div>
             <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
             <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
@@ -98,12 +80,6 @@
                     <p class="text-xl md:text-2xl text-teal-100 mb-10 max-w-3xl mx-auto">
                         Responsible Extraction, Renewable Futures
                     </p>
-                    <div class="flex justify-center gap-6">
-                        <a href="#projets"
-                            class="px-8 py-4 bg-white text-teal-700 font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                            Our projects
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -144,10 +120,10 @@
 
     <!-- Feuilles flottantes (communes à toutes les slides) -->
     <div class="absolute top-20 left-10 text-green-300 opacity-70 floating" style="font-size: 2rem;">
-        <i class="fas fa-leaf"></i>
+        <i class="fas fa-mountain"></i>
     </div>
     <div class="absolute top-1/3 right-20 text-green-200 opacity-80 floating-2" style="font-size: 3rem;">
-        <i class="fas fa-leaf"></i>
+        <i class="fas fa-hard-hat"></i>
     </div>
     <div class="absolute bottom-1/4 left-1/4 text-green-100 opacity-90 floating-3" style="font-size: 4rem;">
         <i class="fas fa-leaf"></i>

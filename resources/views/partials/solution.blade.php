@@ -1,13 +1,13 @@
 <section id="solutions" class="py-20 relative overflow-hidden">
     <div class="absolute inset-0 bg-green-800 opacity-90"></div>
     <div class="absolute inset-0 parallax"
-        style="background-image: url('https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        style="background-image: url('images/aes_consulting.jpg');">
     </div>
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-20" data-aos="fade-up">
             <span class="inline-block px-3 py-1 text-sm font-semibold text-green-700 bg-green-100 rounded-full mb-4">
-                Nos innovations
+                Our innovations
             </span>
             <h2 class="title-font text-4xl md:text-5xl font-bold text-white mb-6">
                 Solutions <span class="text-green-300">écologiques</span>

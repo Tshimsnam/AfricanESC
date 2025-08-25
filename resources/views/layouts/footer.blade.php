@@ -1,7 +1,7 @@
   <!-- Footer -->
     <footer class="bg-green-900 text-white pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-12">
                 <div>
                     <div class="flex items-center mb-4">
                         <i class="fas fa-leaf text-2xl text-green-400 mr-2"></i>
@@ -48,7 +48,7 @@
                     </ul>
                 </div>
 
-                <div>
+                {{-- <div>
                     <h4 class="text-lg font-bold mb-4">Newsletter</h4>
                     <p class="text-green-300 text-sm mb-4">
                         Abonnez-vous pour recevoir nos conseils écologiques et actualités.
@@ -59,7 +59,7 @@
                             <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
-                </div>
+                </div> --}}
             </div>
 
             <div class="border-t border-green-800 pt-8 flex flex-col md:flex-row justify-center items-center">
