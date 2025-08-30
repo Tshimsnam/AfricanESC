@@ -16,26 +16,12 @@
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10">
             <div class="text-center" data-aos="fade-up">
                 <h2 class="title-font text-4xl md:text-5xl font-bold mb-6">
-                    OUR <span class="text-green-200">MISSION</span>
+                    <span data-translate="our">OUR</span> <span class="text-green-200" data-translate="mission">MISSION</span>
                 </h2>
                 <div class="w-20 h-1 bg-green-200 mx-auto mb-6"></div>
-                <p class="text-xl text-green-100 max-w-3xl mx-auto mb-10">
+                <p class="text-xl text-green-100 max-w-3xl mx-auto mb-10" data-translate="contribute">
                     Contribute to Sustainable Development of Africa.
                 </p>
-
-                {{-- <form class="max-w-xl mx-auto" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <input type="email" placeholder="Votre email"
-                            class="flex-grow px-6 py-4 rounded-full focus:outline-none focus:ring-2 focus:ring-green-300 text-gray-900">
-                        <button type="submit"
-                            class="px-8 py-4 bg-green-600 hover:bg-green-800 text-white font-bold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
-                            S'abonner
-                        </button>
-                    </div>
-                    <p class="mt-4 text-sm text-green-200">
-                        Nous respectons votre vie privée. Vous pouvez vous désabonner à tout moment.
-                    </p>
-                </form> --}}
             </div>
         </div>
     </section>

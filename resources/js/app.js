@@ -309,17 +309,108 @@ const translations = {
         'modal.training.title': 'Formation',
         'geotechnic.view':'Voir tout',
 
+        //secteurs
+        'sectors.subtitle': 'Secteurs',
+        'sectors.title1': 'NOS',
+        'sectors.title2': 'SECTEURS',
+        'sectors.title3': "D'ACTIVITÉS",
+        'sectors.description': 'Excellence et impact dans chaque projet.',
+
+        // Mines
+        'sectors.mines.title': 'Mines',
+        'sectors.mines.description': 'ciel ouvert, souterrain et carrières.',
+
+        // Agro industries
+        'sectors.agro.title': 'Agro-industries',
+        'sectors.agro.description': 'plantation de palmiers à huile, plantation d\'hévéa, autres types de plantations.',
+
+        // Energy
+        'sectors.energy.title': 'Énergie',
+        'sectors.energy.description': 'énergie renouvelable : hydroélectricité et centrale thermique.',
+
+        // Hydrocarbon
+        'sectors.hydrocarbon.title': 'Hydrocarbures',
+        'sectors.hydrocarbon.description': 'Exploration',
+
+        // Education
+        'sectors.education.title': 'Éducation',
+        'sectors.education.description': 'Projet éducatif',
+
+        // Infrastructure
+        'sectors.infrastructure.title': 'Infrastructures',
+        'sectors.infrastructure.description': 'routes, chemins de fer, ports et construction',
+
+        // Geotechnical
+        'sectors.geotechnical.title': 'Géotechnique',
+        'sectors.geotechnical.description': 'forage, tests mécaniques et identification des sols.',
+
+        // IT
+        'sectors.it.title': 'Technologie de l\'Information',
+        'sectors.it.description': 'Logiciels de base de données et applications',
+
+        //mission
+        'contribute':'Contribuer au développement durable de l’Afrique.',
+        'mission':'MISSION',
+        'our':'NOTRE',
+
         // Sections
         'section.missions': 'Nos Missions',
         'section.solutions': 'Nos Solutions',
         'section.actions': 'Nos Secteurs d\'Activité',
         'section.contact': 'Contactez-nous',
 
+        //contact
+        'contact_us': 'Contactez-nous',
+        'lets_get': 'Restons',
+        'in_touch': 'en contact',
+        'contact_description': 'Avez-vous des questions ou souhaitez-vous collaborer avec nous? Écrivez-nous!',
+        'contact_info': 'Nos informations de contact',
+        'uk_office': 'Bureau UK',
+        'drc_office': 'Bureau RDC',
+        'phone': 'Téléphone',
+        'hours': 'Horaires d\'ouverture',
+        'weekdays': 'Lundi - Vendredi : 9h - 18h',
+        'weekend': 'Week-end : Fermé',
+        'follow_us': 'Suivez-nous',
+        'send_message': 'Envoyez-nous un message',
+        'name_label': 'Nom',
+        'subject_label': 'Sujet',
+        'volunteer_option': 'Je souhaite devenir bénévole',
+        'donation_option': 'Je souhaite faire un don',
+        'solutions_option': 'Question sur vos solutions',
+        'other_option': 'Autre demande',
+        'message_label': 'Message',
+        'success_message': 'Votre message a été envoyé avec succès!',
+        'send_button': 'Envoyer le message',
+        'sending_text': 'Envoi en cours...',
+
         // Footer
-        'footer.about': 'À propos',
-        'footer.services': 'Services',
-        'footer.contact': 'Contact',
-        'footer.rights': 'Tous droits réservés',
+        'navigation_title': 'Navigation',
+        'home_link': 'Accueil',
+        'services_link': 'Services',
+        'solutions_link': 'Solutions',
+        'actions_link': 'Actions',
+        'contact_link': 'Contact',
+        'solutions_title': 'Solutions',
+        'hydrocarbons_link': 'Hydrocarbures',
+        'energy_link': 'Énergie',
+        'education_link': 'Éducation',
+        'geotechnical_link': 'Géotechnique',
+        'infrastructures_link': 'Infrastructures',
+
+        //copyright
+        'copyright': '' + new Date().getFullYear() + ' AfricanESC. Tous droits réservés.',
+
+        //solutions
+        'our_solutions': 'Nos solutions',
+        'solutions_title_main': 'Solutions',
+        'solutions_description': 'Découvrez nos alternatives concrètes pour un mode de vie plus durable',
+        'geotechnique_title': 'Géotechnique',
+        'geotechnique_description': 'AfricanESC, expert en géotechnique, offre des solutions fiables et durables pour l\'étude des sols, la stabilité des fondations et la sécurité des projets.',
+        'mines_title': 'Mines',
+        'mines_description': 'AfricanESC accompagne le secteur minier avec des solutions innovantes en exploration, exploitation durable et gestion des ressources, garantissant performance et sécurité.',
+        'agro_title': 'Agro-industries',
+        'agro_description': 'AfricanESC développe des solutions durables en agro-industries, favorisant la productivité agricole, la transformation et la valorisation des ressources locales.',
 
         // Autres textes
         'read_more': 'Lire plus',
@@ -474,17 +565,110 @@ const translations = {
         'modal.geo.title': 'Geotechnic',
         'modal.training.title': 'Training',
 
+        //sectors
+        // Sectors Section
+        'sectors.subtitle': 'Sectors',
+        'sectors.title1': 'OUR',
+        'sectors.title2': 'SECTORS',
+        'sectors.title3': 'OF ACTIVITIES',
+        'sectors.description': 'Excellence and impact in every project.',
+
+        // Mines
+        'sectors.mines.title': 'Mines',
+        'sectors.mines.description': 'open pit, underground and quarries.',
+
+        // Agro industries
+        'sectors.agro.title': 'Agro industries',
+        'sectors.agro.description': 'palm oil plantation, Hevea plantation, other types of plantations.',
+
+        // Energy
+        'sectors.energy.title': 'Energy',
+        'sectors.energy.description': 'renewable energy: hydropower and thermal power plant.',
+
+        // Hydrocarbon
+        'sectors.hydrocarbon.title': 'Hydrocarbon',
+        'sectors.hydrocarbon.description': 'Exploration',
+
+        // Education
+        'sectors.education.title': 'Education',
+        'sectors.education.description': 'Education project',
+
+        // Infrastructure
+        'sectors.infrastructure.title': 'Infrastructures',
+        'sectors.infrastructure.description': 'roads, railways, ports and construction',
+
+        // Geotechnical
+        'sectors.geotechnical.title': 'Geotechnical',
+        'sectors.geotechnical.description': 'drilling, mechanical tests and soil identification.',
+
+        // IT
+        'sectors.it.title': 'Information Technology',
+        'sectors.it.description': 'Database Software & Applications',
+
+        //mission
+        'contribute':'Contribute to Sustainable Development of Africa.',
+        'mission':'MISSION',
+        'our':'OUR',
+
         // Sections
         'section.missions': 'Our Missions',
         'section.solutions': 'Our Solutions',
         'section.actions': 'Our Sectors',
         'section.contact': 'Contact Us',
 
+        //contact
+
+        'contact_us': 'Contact us',
+        'lets_get': 'Let\'s get',
+        'in_touch': 'in touch',
+        'contact_description': 'Do you have any questions or would you like to engage with us? Write to us!',
+        'contact_info': 'Our Contact Information',
+        'uk_office': 'UK Office',
+        'drc_office': 'DRC Office',
+        'phone': 'Phone',
+        'hours': 'Opening Hours',
+        'weekdays': 'Monday - Friday: 9am - 6pm',
+        'weekend': 'Weekend: Closed',
+        'follow_us': 'Follow us',
+        'send_message': 'Send us a message',
+        'name_label': 'Name',
+        'subject_label': 'Subject',
+        'volunteer_option': 'I would like to become a volunteer',
+        'donation_option': 'I would like to make a donation',
+        'solutions_option': 'Question about your solutions',
+        'other_option': 'Other request',
+        'message_label': 'Message',
+        'success_message': 'Your message has been sent successfully!',
+        'send_button': 'Send message',
+        'sending_text': 'Sending...',
+
         // Footer
-        'footer.about': 'About',
-        'footer.services': 'Services',
-        'footer.contact': 'Contact',
-        'footer.rights': 'All rights reserved',
+        'navigation_title': 'Navigation',
+        'home_link': 'Home',
+        'services_link': 'Services',
+        'solutions_link': 'Solutions',
+        'actions_link': 'Actions',
+        'contact_link': 'Contact',
+        'solutions_title': 'Solutions',
+        'hydrocarbons_link': 'Hydrocarbons',
+        'energy_link': 'Energy',
+        'education_link': 'Education',
+        'geotechnical_link': 'Geotechnical',
+        'infrastructures_link': 'Infrastructures',
+
+        //copyrigt
+        'copyright': '' + new Date().getFullYear() + ' AfricanESC. All Rights Reserved.',
+
+        //solutions
+        'our_solutions': 'Our solutions',
+        'solutions_title_main': 'Solutions',
+        'solutions_description': 'Discover our concrete alternatives for a more sustainable lifestyle',
+        'geotechnique_title': 'Geotechnical',
+        'geotechnique_description': 'AfricanESC, a geotechnical expert, offers reliable and sustainable solutions for soil studies, foundation stability, and project safety.',
+        'mines_title': 'Mining',
+        'mines_description': 'AfricanESC supports the mining sector with innovative solutions in exploration, sustainable exploitation, and resource management, ensuring performance and safety.',
+        'agro_title': 'Agro-industries',
+        'agro_description': 'AfricanESC develops sustainable solutions in agro-industries, promoting agricultural productivity, processing, and valorization of local resources.',
 
         // Autres textes
         'read_more': 'Read more',
