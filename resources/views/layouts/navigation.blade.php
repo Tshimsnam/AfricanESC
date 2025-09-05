@@ -16,13 +16,17 @@
                 <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')" data-translate="nav.home">
                     {{ __('Home') }}
                 </x-nav-link>
-                <x-nav-link href="#missions" :active="request()->is('*missions*')">
+
+                <x-nav-link href="{{ route('missions') }}" :active="request()->routeIs('missions')">
                     <span data-translate="nav.services">Services</span>
                 </x-nav-link>
-                <x-nav-link href="#solutions" :active="request()->is('*solutions*')"><span data-translate="nav.solutions">Solutions</span></x-nav-link>
-                <x-nav-link href="#actions" :active="request()->is('*actions*')"> <span
+                <x-nav-link href="{{route('solutions')}}" :active="request()->is('*solutions*')"><span
+                        data-translate="nav.solutions">Solutions</span>
+                </x-nav-link>
+                <x-nav-link href="{{route('actions')}}" :active="request()->is('*actions*')"> <span
                         data-translate="nav.sectors">Sectors</span></x-nav-link>
-                <x-nav-link href="#contact" :active="request()->is('*contact*')"><span data-translate="nav.contact">Contact</span></x-nav-link>
+                <x-nav-link href="{{route('contact')}}" :active="request()->is('*contact*')"><span
+                        data-translate="nav.contact">Contact</span></x-nav-link>
 
                 <!-- Sélecteur de langue Desktop -->
                 <div class="language-switcher-desktop ml-4">
@@ -38,7 +42,8 @@
 
                 <a href="{{ route('download.brochure') }}"
                     class="ml-2 px-5 py-2 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-sm">
-                    <i class="fas fa-download mr-2 text-xs"></i> <span data-translate="nav.brochure">Download Brochure</span>
+                    <i class="fas fa-download mr-2 text-xs"></i> <span data-translate="nav.brochure">Download
+                        Brochure</span>
                 </a>
             </div>
 
@@ -65,16 +70,17 @@
             <x-mobile-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                 <i class="fas fa-home mr-3 text-green-600"></i> <span data-translate="nav.home">Home</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="#missions" :active="request()->is('*missions*')">
+            <x-mobile-nav-link href="{{route('missions')}}" :active="request()->is('*missions*')">
                 <i class="fas fa-cogs mr-3 text-green-600"></i> <span data-translate="nav.services">Services</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="#solutions" :active="request()->is('*solutions*')">
-                <i class="fas fa-lightbulb mr-3 text-green-600"></i> <span data-translate="nav.solutions">Solutions</span>
+            <x-mobile-nav-link href="{{route('solutions')}}" :active="request()->is('*solutions*')">
+                <i class="fas fa-lightbulb mr-3 text-green-600"></i> <span
+                    data-translate="nav.solutions">Solutions</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="#actions" :active="request()->is('*actions*')">
+            <x-mobile-nav-link href="{{route('actions')}}" :active="request()->is('*actions*')">
                 <i class="fas fa-industry mr-3 text-green-600"></i> <span data-translate="nav.sectors">Sectors</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="#contact" :active="request()->is('*contact*')">
+            <x-mobile-nav-link href="{{route('contact')}}" :active="request()->is('*contact*')">
                 <i class="fas fa-envelope mr-3 text-green-600"></i> <span data-translate="nav.contact">Contact</span>
             </x-mobile-nav-link>
 
