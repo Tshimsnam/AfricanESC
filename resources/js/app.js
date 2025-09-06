@@ -168,7 +168,7 @@ const translations = {
         'nav.solutions': 'Solutions',
         'nav.sectors': 'Secteurs',
         'nav.contact': 'Contact',
-        'nav.brochure': 'Télécharger la Brochure',
+        'nav.brochure': 'Brochure Télécharger',
         'nav.language': 'Langue',
 
         // Hero Section Biodiversity
@@ -194,7 +194,7 @@ const translations = {
         //services text
         'services1':"Nos",
         'services2':"services",
-        'services3':"African for the Environment and Sustainable Development Consulting (AES Consulting) œuvre pour un avenir meilleur en offrant des services de haute qualité et des solutions spécifiques dans les domaines suivants :",
+        'services3':"African Environmental and Sustainability Consulting- (AES Consulting), offre des services de haute qualité et des solutions spécifiques dans les domaines suivants:",
 
         // Services biophysique
         'services.bio.title': 'ENVIRONNEMENT BIOPHYSIQUE',
@@ -208,7 +208,7 @@ const translations = {
         'modal.close': 'Fermer',
 
         'services.bio.item1': 'Étude environnementale',
-        'services.bio.item2': 'Plan de gestion environnementale (pour exploitation industrielle et minière artisanale)',
+        'services.bio.item2': 'Plan de Gestion Environnementale (pour l’exploitation minière industrielle et des petites mines)',
         'services.bio.item3': 'Évaluation de la faune et de la flore',
         'services.bio.item4': 'Évaluation des milieux aquatiques et humides',
         'services.bio.item5': 'Évaluation environnementale et sociale stratégique',
@@ -221,6 +221,7 @@ const translations = {
         'services.bio.item12': 'Due Diligence pour les risques environnementaux et sociaux',
         'services.bio.item13': 'Rapport de conformité',
         'services.bio.item14': 'Rapport d\'activité',
+        'services.bio.item15': 'Plan d’Atténuation et Réhabilitation ; Etude Stratégique Environnementale',
 
         //services social
         'services.social.title': 'ENVIRONNEMENT SOCIAL',
@@ -243,6 +244,7 @@ const translations = {
         'services.social.item9': 'Développement de mécanismes de gestion des conflits et des plaintes',
         'services.social.item10': 'Évaluation des relations entre l\'entreprise et la communauté',
         'services.social.item11': 'Plan de projet communautaire pour le développement durable',
+        'services.social.item12':'Plan de Consultation des Parties Prenantes',
 
 
         //services Hydrogeologie & hydrologie
@@ -292,7 +294,7 @@ const translations = {
         'health.view':'Voir tout',
 
         //modal formation
-         'modal.training.title': 'FORMATION',
+        'modal.training.title': 'FORMATION',
 
         'services.training.item1': 'Gestion environnementale',
         'services.training.item2': 'Santé et Sécurité au travail',
@@ -326,11 +328,11 @@ const translations = {
 
         // Energy
         'sectors.energy.title': 'Énergie',
-        'sectors.energy.description': 'énergie renouvelable : hydroélectricité et centrale thermique.',
+        'sectors.energy.description': 'énergie renouvelable : hydroélectricité, centrale thermique et ligne de Transmission Electrique.',
 
         // Hydrocarbon
         'sectors.hydrocarbon.title': 'Hydrocarbures',
-        'sectors.hydrocarbon.description': 'Exploration',
+        'sectors.hydrocarbon.description': 'Exploration et Exploitation (forage)  ',
 
         // Education
         'sectors.education.title': 'Éducation',
@@ -338,7 +340,7 @@ const translations = {
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
-        'sectors.infrastructure.description': 'routes, chemins de fer, ports et construction',
+        'sectors.infrastructure.description': 'routes, chemins de fer, ports, ligne de transmission electrique  et construction',
 
         // Geotechnical
         'sectors.geotechnical.title': 'Géotechnique',
@@ -366,8 +368,10 @@ const translations = {
         'contact_description': 'Avez-vous des questions ou souhaitez-vous collaborer avec nous? Écrivez-nous!',
         'contact_info': 'Nos informations de contact',
         'uk_office': 'Bureau UK',
-        'drc_office': 'Bureau RDC',
-        'phone': 'Téléphone',
+        'drc_office': 'Bureau Kinshasa',
+        'lub_office':'Bureau Lubumbashi',
+        'phone_rdc': 'Téléphone RDC',
+        'phone_uk':'Téléphone UK',
         'hours': 'Horaires d\'ouverture',
         'weekdays': 'Lundi - Vendredi : 9h - 18h',
         'weekend': 'Week-end : Fermé',
@@ -399,18 +403,18 @@ const translations = {
         'infrastructures_link': 'Infrastructures',
 
         //copyright
-        'copyright': '' + new Date().getFullYear() + ' AfricanESC. Tous droits réservés.',
+        'copyright': '' + new Date().getFullYear() + ' AES Consulting . Tous droits réservés.',
 
         //solutions
         'our_solutions': 'Nos solutions',
         'solutions_title_main': 'Solutions',
         'solutions_description': 'Découvrez nos alternatives concrètes pour un mode de vie plus durable',
         'geotechnique_title': 'Géotechnique',
-        'geotechnique_description': 'AfricanESC, expert en géotechnique, offre des solutions fiables et durables pour l\'étude des sols, la stabilité des fondations et la sécurité des projets.',
+        'geotechnique_description': 'AES Consulting , expert en géotechnique, offre des solutions fiables et durables pour l\'étude des sols, la stabilité des fondations et la sécurité des projets.',
         'mines_title': 'Mines',
-        'mines_description': 'AfricanESC accompagne le secteur minier avec des solutions innovantes en exploration, exploitation durable et gestion des ressources, garantissant performance et sécurité.',
+        'mines_description': 'AES Consulting  accompagne le secteur minier avec des solutions innovantes en exploration, exploitation durable et gestion des ressources, garantissant performance et sécurité.',
         'agro_title': 'Agro-industries',
-        'agro_description': 'AfricanESC développe des solutions durables en agro-industries, favorisant la productivité agricole, la transformation et la valorisation des ressources locales.',
+        'agro_description': 'AES Consulting  développe des solutions durables en agro-industries, favorisant la productivité agricole, la transformation et la valorisation des ressources locales.',
 
         // Autres textes
         'read_more': 'Lire plus',
@@ -451,7 +455,7 @@ const translations = {
         //services text
         'services1':"Our",
         'services2':"Services",
-        'services3':"The African for the Environment and Sustainable Development Consulting (AES Consulting), work for a better future, by delivering high quality services and specific solutions in the following areas:",
+        'services3':"African Environmental and Sustainability Consulting (AES Consulting) provides services for environmental and social studies, by delivering high quality services and specific solutions in the following area:",
 
         // Services Cards
         'services.bio.title': 'BIOPHYSICAL ENVIRONMENT',
@@ -465,7 +469,7 @@ const translations = {
         'modal.close': 'Close',
 
         'services.bio.item1': 'Environmental study',
-        'services.bio.item2': 'Environmental Management Plan (both for industrial exploitation and artisanal and small scale mining)',
+        'services.bio.item2': 'Environmental Management Plan (for small and large scale mining),',
         'services.bio.item3': 'Fauna and Flora Assessment',
         'services.bio.item4': 'Aquatic and wetland Assessment',
         'services.bio.item5': 'Strategic Environmental and Social Assessment',
@@ -478,6 +482,7 @@ const translations = {
         'services.bio.item12': 'Due Diligence for Environmental and Social Risks',
         'services.bio.item13': 'Compliance Report',
         'services.bio.item14': 'Activity Report',
+        'services.bio.item15': 'Mitigation and Rehabilitation Plan, Strategic Environmental Assessment ',
 
         //services social
         'services.social.title': 'SOCIAL ENVIRONMENT',
@@ -499,6 +504,7 @@ const translations = {
         'services.social.item9': 'Development of mechanism for Conflict and Complaint Management',
         'services.social.item10': 'Company and Community Relation Assessment',
         'services.social.item11': 'Community Project Plan for Sustainable Development',
+        'services.social.item12':'Stakeholders Engagement Plan',
 
         //Hydrogeology et hydrology
         'services.hydro.title': 'HYDROGEOLOGY & HYDROLOGY',
@@ -583,11 +589,11 @@ const translations = {
 
         // Energy
         'sectors.energy.title': 'Energy',
-        'sectors.energy.description': 'renewable energy: hydropower and thermal power plant.',
+        'sectors.energy.description': 'renewable energy: hydropower, thermal power plant and Power Line.',
 
         // Hydrocarbon
-        'sectors.hydrocarbon.title': 'Hydrocarbon',
-        'sectors.hydrocarbon.description': 'Exploration',
+        'sectors.hydrocarbon.title': 'Fossil Fuels',
+        'sectors.hydrocarbon.description': 'Exploitation-drilling',
 
         // Education
         'sectors.education.title': 'Education',
@@ -595,7 +601,7 @@ const translations = {
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
-        'sectors.infrastructure.description': 'roads, railways, ports and construction',
+        'sectors.infrastructure.description': 'roads, railways, ports, power line and construction',
 
         // Geotechnical
         'sectors.geotechnical.title': 'Geotechnical',
@@ -624,8 +630,10 @@ const translations = {
         'contact_description': 'Do you have any questions or would you like to engage with us? Write to us!',
         'contact_info': 'Our Contact Information',
         'uk_office': 'UK Office',
-        'drc_office': 'DRC Office',
-        'phone': 'Phone',
+        'drc_office': 'Kinshasa Office',
+        'lub_office':'Lubumbashi Office',
+        'phone_rdc': 'Phone DRC',
+        'phone_uk': 'Phone UK',
         'hours': 'Opening Hours',
         'weekdays': 'Monday - Friday: 9am - 6pm',
         'weekend': 'Weekend: Closed',
@@ -657,18 +665,18 @@ const translations = {
         'infrastructures_link': 'Infrastructures',
 
         //copyrigt
-        'copyright': '' + new Date().getFullYear() + ' AfricanESC. All Rights Reserved.',
+        'copyright': '' + new Date().getFullYear() + ' AES Consulting . All Rights Reserved.',
 
         //solutions
         'our_solutions': 'Our solutions',
         'solutions_title_main': 'Solutions',
         'solutions_description': 'Discover our concrete alternatives for a more sustainable lifestyle',
         'geotechnique_title': 'Geotechnical',
-        'geotechnique_description': 'AfricanESC, a geotechnical expert, offers reliable and sustainable solutions for soil studies, foundation stability, and project safety.',
+        'geotechnique_description': 'AES Consulting , a geotechnical expert, offers reliable and sustainable solutions for soil studies, foundation stability, and project safety.',
         'mines_title': 'Mining',
-        'mines_description': 'AfricanESC supports the mining sector with innovative solutions in exploration, sustainable exploitation, and resource management, ensuring performance and safety.',
+        'mines_description': 'AES Consulting  supports the mining sector with innovative solutions in exploration, sustainable exploitation, and resource management, ensuring performance and safety.',
         'agro_title': 'Agro-industries',
-        'agro_description': 'AfricanESC develops sustainable solutions in agro-industries, promoting agricultural productivity, processing, and valorization of local resources.',
+        'agro_description': 'AES Consulting  develops sustainable solutions in agro-industries, promoting agricultural productivity, processing, and valorization of local resources.',
 
         // Autres textes
         'read_more': 'Read more',

@@ -64,9 +64,9 @@
                             <i class="fas fa-fire"></i>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-translate="sectors.hydrocarbon.title">Hydrocarbon</h3>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-translate="sectors.hydrocarbon.title">Fossil Fuels</h3>
                             <p class="text-gray-600" data-translate="sectors.hydrocarbon.description">
-                                Exploration
+                                Exploitation-drilling
                             </p>
                         </div>
                     </div>

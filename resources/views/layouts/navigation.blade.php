@@ -7,7 +7,7 @@
                     class="flex-shrink-0 flex items-center transform hover:scale-110 transition duration-300">
                     <img src="{{ asset('images/logo_aes_consulting.png') }}" alt="AES Consulting"
                         class="w-24 h-16 mr-2 floating">
-                    <span class="title-font text-xl font-bold text-green-700 hidden sm:block">AfricanESC</span>
+                    <span class="title-font text-xl font-bold text-green-700 hidden sm:block">AES Consulting </span>
                 </a>
             </div>
 

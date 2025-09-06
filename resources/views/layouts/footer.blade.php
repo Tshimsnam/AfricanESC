@@ -5,7 +5,7 @@
               <div>
                   <div class="flex items-center mb-4">
                       <i class="fas fa-leaf text-2xl text-green-400 mr-2"></i>
-                      <span class="title-font text-xl font-bold">AfricanESC</span>
+                      <span class="title-font text-xl font-bold">AES Consulting </span>
                   </div>
                   <p class="text-green-300 text-sm mb-4">
                       The African for the Environment and Sustainable Development Consulting (AES Consulting), work for
@@ -94,7 +94,7 @@
 
           <div class="border-t border-green-800 pt-8 flex flex-col md:flex-row justify-center items-center">
               <p class="text-green-400 text-sm" data-translate="copyright">
-                  &copy; {{ date('Y') }} AfricanESC. All Rights Reserved.
+                  &copy; {{ date('Y') }} AES Consulting . All Rights Reserved.
               </p>
               {{-- <div class="flex space-x-6 mt-4 md:mt-0">
                     <a href="#" class="text-green-400 hover:text-white transition duration-300 text-sm">Mentions légales</a>

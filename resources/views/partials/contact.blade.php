@@ -37,7 +37,17 @@
                         </div>
                         <div>
                             <h4 class="text-lg font-medium text-gray-900" data-translate="drc_office">DRC Office</h4>
-                            <p class="text-gray-600">8 AV. Du Commerce, Gombe, KINSHASA </p>
+                            <p class="text-gray-600">8 AV. Du Commerce, Gombe, Kinshasa, RDC </p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div
+                            class="flex-shrink-0 h-10 w-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 mr-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-900" data-translate="lub_office">DRC Office</h4>
+                            <p class="text-gray-600">8 Avenue Chemin Public, Golf Tshamalale, Lubumbashi, Haut Katanga, RDC</p>
                         </div>
                     </div>
 
@@ -47,8 +57,18 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div>
-                            <h4 class="text-lg font-medium text-gray-900" data-translate="phone">Téléphone</h4>
+                            <h4 class="text-lg font-medium text-gray-900" data-translate="phone_rdc">Téléphone</h4>
                             <p class="text-gray-600">+243 8586 01421</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div
+                            class="flex-shrink-0 h-10 w-10 rounded-full bg-green-100 flex items-center justify-center text-green-600 mr-4">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-medium text-gray-900" data-translate="phone_uk">Téléphone</h4>
+                            <p class="text-gray-600">0044 77 22 00 1743</p>
                         </div>
                     </div>
 
@@ -75,7 +95,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-10">
+                {{-- <div class="mt-10">
                     <h4 class="text-lg font-medium text-gray-900 mb-4" data-translate="follow_us">Follow us</h4>
                     <div class="flex space-x-4">
                         <a href="#"
@@ -99,7 +119,7 @@
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
-                </div> 
+                </div> --}}
             </div>
 
             <!-- Contact Form -->

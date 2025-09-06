@@ -126,6 +126,10 @@
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
                                     <span data-translate="services.bio.item14">Activity Report</span>
                                 </li>
+                                 <li class="flex items-start p-2 hover:bg-green-50 rounded">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+                                    <span data-translate="services.bio.item15">Plan d’Atténuation et Réhabilitation ; Etude Stratégique Environnementale </span>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -238,6 +242,10 @@
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
                                     <span data-translate="services.social.item11">Community Project Plan for
                                         Sustainable Development.</span>
+                                </li>
+                                <li class="flex items-start p-2 hover:bg-green-50 rounded">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+                                    <span data-translate="services.social.item12">Stakeholders Engagement Plan.</span>
                                 </li>
                             </ul>
                         </div>
