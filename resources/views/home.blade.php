@@ -5,10 +5,10 @@
     @include('partials.mission')
     <!-- Solutions Section with Parallax -->
     @include('partials.solution')
-    <!-- Impact Section with Animated Counter -->
-    {{-- @include('partials.impact') --}}
-    <!-- Actions Section -->
+       <!-- Actions Section -->
     @include('partials.action')
+     <!-- Impact Section with Animated Counter -->
+    @include('partials.gallery')
     <!-- Testimonials Section -->
     {{-- @include('partials.testimonials') --}}
     <!-- Newsletter Section with Floating Elements -->

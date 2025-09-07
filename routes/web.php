@@ -21,6 +21,10 @@ Route::get('/actions', function () {
     return redirect('/#actions');
 })->name('actions');
 
+Route::get('/gallery', function () {
+    return redirect('/#gallery');
+})->name('gallery');
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/download/brochure', [BrochureController::class, 'download'])->name('download.brochure');

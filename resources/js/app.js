@@ -167,6 +167,7 @@ const translations = {
         'nav.services': 'Services',
         'nav.solutions': 'Solutions',
         'nav.sectors': 'Secteurs',
+        'nav.gallery': 'Gallerie',
         'nav.contact': 'Contact',
         'nav.brochure': 'Brochure Télécharger',
         'nav.language': 'Langue',
@@ -361,12 +362,18 @@ const translations = {
         'section.actions': 'Nos Secteurs d\'Activité',
         'section.contact': 'Contactez-nous',
 
+        //gallery
+        'section.our':'NOTRE',
+        'section.project':'GALLERIE',
+        'discover':'Explorez nos projets environnementaux et nos solutions durables concrètes',
+        'gal':'gallerie',
+
         //contact
         'contact_us': 'Contactez-nous',
         'lets_get': 'Restons',
         'in_touch': 'en contact',
         'contact_description': 'Avez-vous des questions ou souhaitez-vous collaborer avec nous? Écrivez-nous!',
-        'contact_info': 'Nos informations de contact',
+        'contact_info': 'Veuillez nous contacter, à travers les informations ci-dessous :',
         'uk_office': 'Bureau UK',
         'drc_office': 'Bureau Kinshasa',
         'lub_office':'Bureau Lubumbashi',
@@ -428,6 +435,7 @@ const translations = {
         'nav.services': 'Services',
         'nav.solutions': 'Solutions',
         'nav.sectors': 'Sectors',
+        'nav.gallery': 'Gallery',
         'nav.contact': 'Contact',
         'nav.brochure': 'Download Brochure',
         'nav.language': 'Language',

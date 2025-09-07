@@ -1,60 +1,69 @@
 <nav class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300" id="navbar">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
         <div class="flex justify-between h-20 items-center">
             <!-- Logo -->
             <div class="flex items-center">
                 <a href="{{ route('home') }}"
                     class="flex-shrink-0 flex items-center transform hover:scale-110 transition duration-300">
                     <img src="{{ asset('images/logo_aes_consulting.png') }}" alt="AES Consulting"
-                        class="w-24 h-16 mr-2 floating">
-                    <span class="title-font text-xl font-bold text-green-700 hidden sm:block">AES Consulting </span>
+                        class="w-20 h-14 mr-2 floating">
+                    <span class="title-font text-lg font-bold text-green-700 hidden sm:block">AES Consulting</span>
                 </a>
             </div>
 
             <!-- Menu Desktop -->
-            <div class="hidden md:flex items-center space-x-6 lg:space-x-8">
-                <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')" data-translate="nav.home">
-                    {{ __('Home') }}
+            <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
+                <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')" class="text-sm">
+                    <span data-translate="nav.home">Home</span>
                 </x-nav-link>
 
-                <x-nav-link href="{{ route('missions') }}" :active="request()->routeIs('missions')">
+                <x-nav-link href="{{ route('missions') }}" :active="request()->routeIs('missions')" class="text-sm">
                     <span data-translate="nav.services">Services</span>
                 </x-nav-link>
-                <x-nav-link href="{{route('solutions')}}" :active="request()->is('*solutions*')"><span
-                        data-translate="nav.solutions">Solutions</span>
+
+                <x-nav-link href="{{ route('solutions') }}" :active="request()->routeIs('solutions')" class="text-sm">
+                    <span data-translate="nav.solutions">Solutions</span>
                 </x-nav-link>
-                <x-nav-link href="{{route('actions')}}" :active="request()->is('*actions*')"> <span
-                        data-translate="nav.sectors">Sectors</span></x-nav-link>
-                <x-nav-link href="{{route('contact')}}" :active="request()->is('*contact*')"><span
-                        data-translate="nav.contact">Contact</span></x-nav-link>
+
+                <x-nav-link href="{{ route('actions') }}" :active="request()->routeIs('actions')" class="text-sm">
+                    <span data-translate="nav.sectors">Sectors</span>
+                </x-nav-link>
+
+                <x-nav-link href="{{ route('gallery') }}" :active="request()->routeIs('gallery')" class="text-sm">
+                    <span data-translate="nav.gallery">Gallery</span>
+                </x-nav-link>
+
+                <x-nav-link href="{{ route('contact') }}" :active="request()->routeIs('contact')" class="text-sm">
+                    <span data-translate="nav.contact">Contact</span>
+                </x-nav-link>
 
                 <!-- Sélecteur de langue Desktop -->
-                <div class="language-switcher-desktop ml-4">
+                <div class="language-switcher-desktop ml-3">
                     <select id="languageSelectDesktop" onchange="changeLanguage(this.value)"
-                        class="bg-white border border-gray-300 rounded-full px-3 py-1.5 pr-8 shadow-sm hover:shadow-md transition-shadow focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none cursor-pointer text-sm">
+                        class="bg-white border border-gray-300 rounded-full px-2 py-1 pr-6 shadow-sm hover:shadow-md transition-shadow focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none cursor-pointer text-xs">
                         <option value="fr">🇫🇷 FR</option>
                         <option value="en">🇬🇧 EN</option>
                     </select>
-                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-1 text-gray-500">
                         <i class="fas fa-chevron-down text-xs"></i>
                     </div>
                 </div>
 
                 <a href="{{ route('download.brochure') }}"
-                    class="ml-2 px-5 py-2 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-sm">
-                    <i class="fas fa-download mr-2 text-xs"></i> <span data-translate="nav.brochure">Download
-                        Brochure</span>
+                    class="ml-2 px-4 py-1.5 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-xs">
+                    <i class="fas fa-download mr-1 text-xs"></i>
+                    <span data-translate="nav.brochure">Brochure</span>
                 </a>
             </div>
 
-            <!-- Right Section: Desktop Language + Mobile Menu Button -->
-            <div class="flex items-center space-x-4">
+            <!-- Right Section -->
+            <div class="flex items-center space-x-3">
                 <!-- Bouton Mobile Menu -->
                 <div class="md:hidden">
                     <button
-                        class="text-gray-700 focus:outline-none p-2 rounded-lg hover:bg-gray-100 transition flex items-center"
+                        class="text-gray-700 focus:outline-none p-1 rounded-lg hover:bg-gray-100 transition flex items-center"
                         id="mobile-menu-button">
-                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
@@ -70,17 +79,20 @@
             <x-mobile-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                 <i class="fas fa-home mr-3 text-green-600"></i> <span data-translate="nav.home">Home</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="{{route('missions')}}" :active="request()->is('*missions*')">
+            <x-mobile-nav-link href="{{ route('missions') }}" :active="request()->is('*missions*')">
                 <i class="fas fa-cogs mr-3 text-green-600"></i> <span data-translate="nav.services">Services</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="{{route('solutions')}}" :active="request()->is('*solutions*')">
+            <x-mobile-nav-link href="{{ route('solutions') }}" :active="request()->is('*solutions*')">
                 <i class="fas fa-lightbulb mr-3 text-green-600"></i> <span
                     data-translate="nav.solutions">Solutions</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="{{route('actions')}}" :active="request()->is('*actions*')">
+            <x-mobile-nav-link href="{{ route('actions') }}" :active="request()->is('*actions*')">
                 <i class="fas fa-industry mr-3 text-green-600"></i> <span data-translate="nav.sectors">Sectors</span>
             </x-mobile-nav-link>
-            <x-mobile-nav-link href="{{route('contact')}}" :active="request()->is('*contact*')">
+            <x-mobile-nav-link href="{{ route('gallery') }}" :active="request()->is('*gallery*')">
+                <i class="fas fa-hard-hat mr-3 text-green-600"></i> <span data-translate="nav.gallery">Gallery</span>
+            </x-mobile-nav-link>
+            <x-mobile-nav-link href="{{ route('contact') }}" :active="request()->is('*contact*')">
                 <i class="fas fa-envelope mr-3 text-green-600"></i> <span data-translate="nav.contact">Contact</span>
             </x-mobile-nav-link>
 
