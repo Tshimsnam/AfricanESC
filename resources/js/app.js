@@ -173,24 +173,36 @@ const translations = {
         'nav.language': 'Langue',
 
         // Hero Section Biodiversity
-        'hero.Biodiversity': 'Biodiversité &',
-        'hero.Environmental': 'et Développement Durable',
-        'hero.Safeguarding': 'Sauvegarder le patrimoine naturel de l\'Afrique',
+        'hero.Biodiversity': 'Etude de la Biodiversité',
+        'hero.Environmental': 'et Plan de Gestion Durable',
 
         //hero section Social
-        'hero.social':'Responsabilité sociale &',
-        'hero.communities':'communautés',
-        'hero.empowering':'Autonomiser les communautés, garantir l’équité',
+        'hero.social':'Politique de la Responsabilité ',
+        'hero.communities':'Sociale pour les communautés',
 
          //hero section water
-        'hero.water':'Eau &',
-        'hero.hydro':'Hydrogéologie',
-        'hero.smart':'Solutions d\'eau intelligentes pour l\'Afrique',
+        'hero.water':'Etude',
+        'hero.hydro':'hydrogéologique',
 
         //hero section industries
-        'hero.sustainable':'Industries',
+        'hero.sustainable':'Processus Industriel ',
         'hero.industries':'Durable',
-        'hero.responsible':'Extraction responsable, avenirs renouvelables',
+
+        //hero socio-ecomic
+        'hero.socio_econom':'Etude d’Impact',
+        'hero.impact':'Socio-Economique',
+
+        //hero hydrology
+       'hero.natural':'Gestion de Ressources',
+       'hero.ressources':'des Eaux Naturelles',
+
+       //environemental
+       'hero.environmental':'Etude d’Impact',
+       'hero.assessment':'Environnemental',
+
+       //agriculture
+       'hero.identification':'Identification',
+       'hero.land':'des terres agricoles',
 
         //services text
         'services1':"Nos",
@@ -222,7 +234,8 @@ const translations = {
         'services.bio.item12': 'Due Diligence pour les risques environnementaux et sociaux',
         'services.bio.item13': 'Rapport de conformité',
         'services.bio.item14': 'Rapport d\'activité',
-        'services.bio.item15': 'Plan d’Atténuation et Réhabilitation ; Etude Stratégique Environnementale',
+        'services.bio.item15': 'Plan d’Atténuation et Réhabilitation',
+        'services.bio.item16': 'Etude Stratégique Environnementale',
 
         //services social
         'services.social.title': 'ENVIRONNEMENT SOCIAL',
@@ -367,13 +380,80 @@ const translations = {
         'section.project':'GALLERIE',
         'discover':'Explorez nos projets environnementaux et nos solutions durables concrètes',
         'gal':'gallerie',
+        'all_proj':'Tous',
+        'mining':'Exploitation minière',
+        'energy':'Energie',
+        'water':'Hydrologie',
+        'community':'Sociale',
+        'agriculture':'Agriculture',
+
+        //translate photo
+        'hydrol':'Etude Hydrologique',
+        'identif':'Identification des terres agricoles',
+        'eco.studies':'Etudes Socio-économiques',
+        'energi.tracking':'Tracking de la ligne electrique',
+        'artisanal':'Etude d’Impact d’Exploitation Minière Artisanale.',
+        'gal.enviro':'Évaluation de l\'impact environnemental pour l\'exploitation minière',
+        'gal.aquatic':'Etude Aquatique',
+        'gal.fied':'Etude géologique de terrain',
+        'gal.ress.hydrol':'Evaluation des Ressources Hydroliques',
+        'gal.faune':'Etude de la Faune & de la Flore',
+        'gal.com.social':'Etude d’Index de Développement Social Communautaire.',
+        'baseline':'Etude Sociale de base de référence',
+
+
+             // Section Équipe
+        'team.subtitle': 'Notre Équipe',
+        'team.title1': 'Rencontrez notre',
+        'team.title2': 'équipe dirigeante',
+        'team.description': 'Des experts passionnés dédiés à l\'environnement et au développement durable',
+
+        // Freddy Shamwana
+        'team.ceo.name': 'FREDDY SHAMWANA',
+        'team.ceo.position': 'Directeur Exécutif',
+        'team.ceo.short_desc': 'Freddy Shamwana est Directeur Exécutif chez AES CONSULTING RDC et Royaume-Uni, responsable du développement des affaires, de la gouvernance environnementale et sociale et des politiques de durabilité...',
+        'team.ceo.view_profile': 'Voir le profil complet',
+        'team.ceo.modal.title': 'FREDDY SHAMWANA',
+        'team.ceo.modal.position': 'Directeur Exécutif',
+        'team.ceo.modal.description1': 'Freddy Shamwana est Directeur Exécutif chez AES CONSULTING en République Démocratique du Congo et au Royaume-Uni. Il est responsable du développement des affaires, de la gouvernance environnementale et sociale, ainsi que des politiques de durabilité.',
+        'team.ceo.modal.expertise_title': 'Domaines d\'expertise :',
+        'team.ceo.modal.expertise1': 'Gouvernance ESG',
+        'team.ceo.modal.expertise2': 'Développement Durable',
+        'team.ceo.modal.expertise3': 'Industrie Minière',
+        'team.ceo.modal.expertise4': 'Énergie Renouvelable',
+        'team.ceo.modal.expertise5': 'Gestion de l\'Eau',
+        'team.ceo.modal.education': 'Formation :',
+
+        // Jean-Didier Mualaba
+        'team.comm.name': 'JEAN-DIDIER MUALABA',
+        'team.comm.position': 'Directeur Communication & Partenariats',
+        'team.comm.short_desc': 'Jean-Didier est un praticien engagé du développement communautaire et environnemental avec de nombreuses années d\'expérience dans le développement et le monitoring de la conformité environnementale...',
+        'team.comm.view_profile': 'Voir le profil complet',
+        'team.comm.modal.title': 'JEAN-DIDIER MUALABA',
+        'team.comm.modal.position': 'Directeur Communication & Partenariats',
+        'team.comm.modal.description1': 'Jean-Didier MUALABA est un praticien engagé du développement communautaire et environnemental avec de nombreuses années d\'expérience dans le développement et le monitoring de la conformité environnementale avec la législation actuelle en matière d\'émissions, de pollution, d\'empreinte carbone et de gestion des déchets.',
+        'team.comm.modal.skills_title': 'Compétences clés :',
+        'team.comm.modal.skill1': 'Expérience considérable dans la formulation de politiques environnementales, procédures et bonnes pratiques',
+        'team.comm.modal.skill2': 'Réalisation d\'études d\'impact environnemental et mise en œuvre de solutions durables',
+        'team.comm.modal.skill3': 'Monitoring et revue des performances environnementales',
+        'team.comm.modal.skill4': 'Implication des communautés locales dans les processus de régénération et développement',
+        'team.comm.modal.community_title': 'Engagement communautaire :',
+        'team.comm.modal.relationships_title': 'Compétences relationnelles :',
+        'team.comm.modal.profile_title': 'Profil professionnel :',
+        'team.comm.modal.expertise_title': 'Domaines d\'expertise :',
+        'team.comm.modal.expertise1': 'Conformité Environnementale',
+        'team.comm.modal.expertise2': 'Développement Communautaire',
+        'team.comm.modal.expertise3': 'Gestion des Déchets',
+        'team.comm.modal.expertise4': 'Émissions & Pollution',
+        'team.comm.modal.expertise5': 'Audit Environnemental',
+        'team.comm.modal.expertise6': 'Engagement des Parties Prenantes',
 
         //contact
         'contact_us': 'Contactez-nous',
         'lets_get': 'Restons',
         'in_touch': 'en contact',
-        'contact_description': 'Avez-vous des questions ou souhaitez-vous collaborer avec nous? Écrivez-nous!',
-        'contact_info': 'Veuillez nous contacter, à travers les informations ci-dessous :',
+        'contact_description':'Veuillez nous contacter, a travers les informations ci-dessous :',
+        'contact_info': 'Nos Informations de Contact:',
         'uk_office': 'Bureau UK',
         'drc_office': 'Bureau Kinshasa',
         'lub_office':'Bureau Lubumbashi',
@@ -441,24 +521,36 @@ const translations = {
         'nav.language': 'Language',
 
         // Hero Section Biodiversity
-        'hero.Biodiversity': 'Biodiversity &',
-        'hero.Environmental': 'and Sustainability Consulting',
-        'hero.Safeguarding': 'Safeguarding Africa’s Natural Heritage',
+        'hero.Biodiversity': 'Biodiversity ',
+        'hero.Environmental': 'Assessment & Sustainable Management Plan',
 
         //hero section Social
-        'hero.social':'Social Responsibility &',
-        'hero.communities':'Communities',
-        'hero.empowering':'Empowering Communities, Ensuring Equity',
+        'hero.social':'Corporate Social',
+        'hero.communities':'Responsibility Policies',
 
         //hero section water
-        'hero.water':'Water &',
-        'hero.hydro':'Hydrogeology',
-        'hero.smart': 'Smart Water Solutions for Africa',
+        'hero.water':'Hydrogeology ',
+        'hero.hydro':'Survey',
 
         //hero section
-        'hero.sustainable':'Sustainable',
-        'hero.industries':'Industries',
-        'hero.responsible':'Responsible Extraction, Renewable Futures',
+        'hero.sustainable':'Sustainability of',
+        'hero.industries':'Industries and Process',
+
+        //hero socio-ecomic
+        'hero.socio_econom':'Socio-economic ',
+        'hero.impact':'Impact Assessment',
+
+        //hero hydrology
+       'hero.natural':'Natural Water',
+       'hero.ressources':'Ressources Management',
+
+        //environemental
+       'hero.environmental':'Environmental',
+       'hero.assessment':'Impact Assessment',
+
+       //land agriculture
+       'hero.identification':'Identification',
+       'hero.land':'of Land Agriculture',
 
         //services text
         'services1':"Our",
@@ -490,7 +582,8 @@ const translations = {
         'services.bio.item12': 'Due Diligence for Environmental and Social Risks',
         'services.bio.item13': 'Compliance Report',
         'services.bio.item14': 'Activity Report',
-        'services.bio.item15': 'Mitigation and Rehabilitation Plan, Strategic Environmental Assessment ',
+        'services.bio.item15': 'Mitigation and Rehabilitation Plan ',
+        'services.bio.item16':'Strategic Environmental Assessment',
 
         //services social
         'services.social.title': 'SOCIAL ENVIRONMENT',
@@ -630,6 +723,77 @@ const translations = {
         'section.actions': 'Our Sectors',
         'section.contact': 'Contact Us',
 
+         //gallery
+        'section.our':'OUR',
+        'section.project':'GALLERY',
+        'discover':'Discover our environmental projects and sustainable solutions in action',
+        'gal':'gallery',
+        'all_proj':'All',
+        'mining':'Mining',
+        'energy':'Energy',
+        'water':'Hydrology',
+        'community':'Social',
+        'agriculture':'Agriculture',
+
+        //translate photo
+        'hydrol':'Hydrology Survey',
+        'identif':'Identification of Land Agriculture',
+        'eco.studies':'Socio-economic studies',
+        'energi.tracking':'Tracking of power line ',
+        'artisanal':'Artisanal Mining Impact Assessment',
+        'gal.enviro':'Environmental Impact Assessment for Mining',
+        'gal.aquatic':'Aquatic Assessment',
+        'gal.fied':'Fied visit for geological survey',
+        'gal.ress.hydrol':'Hydrolic Resources Survey',
+        'gal.faune':'Fauna & Flora Study',
+        'gal.com.social':'Community Social Index Development Study',
+        'baseline':'Social Baseline Study',
+
+        // Team Section
+        'team.subtitle': 'Our Team',
+        'team.title1': 'Meet our',
+        'team.title2': 'leadership team',
+        'team.description': 'Passionate experts dedicated to environment and sustainable development',
+
+        // Freddy Shamwana
+        'team.ceo.name': 'FREDDY SHAMWANA',
+        'team.ceo.position': 'Executive Director',
+        'team.ceo.short_desc': 'Freddy Shamwana is Executive Director at AES CONSULTING DRC and United Kingdom, responsible for business development, environmental and social governance and sustainability policies...',
+        'team.ceo.view_profile': 'View full profile',
+        'team.ceo.modal.title': 'FREDDY SHAMWANA',
+        'team.ceo.modal.position': 'Executive Director',
+        'team.ceo.modal.description1': 'Freddy Shamwana is Executive Director at AES CONSULTING in Democratic Republic of Congo and United Kingdom. He is responsible for business development, environmental and social governance, as well as sustainability policies.',
+        'team.ceo.modal.expertise_title': 'Areas of expertise :',
+        'team.ceo.modal.expertise1': 'ESG Governance',
+        'team.ceo.modal.expertise2': 'Sustainable Development',
+        'team.ceo.modal.expertise3': 'Mining Industry',
+        'team.ceo.modal.expertise4': 'Renewable Energy',
+        'team.ceo.modal.expertise5': 'Water Management',
+        'team.ceo.modal.education': 'Education :',
+
+        // Jean-Didier Mualaba
+        'team.comm.name': 'JEAN-DIDIER MUALABA',
+        'team.comm.position': 'Communication & Partnerships Director',
+        'team.comm.short_desc': 'Jean-Didier is a committed community and environmental development practitioner with many years of experience in developing and monitoring environmental compliance...',
+        'team.comm.view_profile': 'View full profile',
+        'team.comm.modal.title': 'JEAN-DIDIER MUALABA',
+        'team.comm.modal.position': 'Communication & Partnerships Director',
+        'team.comm.modal.description1': 'Jean-Didier MUALABA is a committed community and environmental development practitioner with many years of experience in developing and monitoring environmental compliance with current legislation on emissions, pollution, carbon footprint and waste management.',
+        'team.comm.modal.skills_title': 'Key skills :',
+        'team.comm.modal.skill1': 'Considerable experience in formulating environmental policies, procedures and best practices',
+        'team.comm.modal.skill2': 'Conducting environmental impact assessments and implementing sustainable solutions',
+        'team.comm.modal.skill3': 'Monitoring and reviewing environmental performance',
+        'team.comm.modal.skill4': 'Involving local communities in regeneration and development processes',
+        'team.comm.modal.community_title': 'Community engagement :',
+        'team.comm.modal.relationships_title': 'Relationship skills :',
+        'team.comm.modal.profile_title': 'Professional profile :',
+        'team.comm.modal.expertise_title': 'Areas of expertise :',
+        'team.comm.modal.expertise1': 'Environmental Compliance',
+        'team.comm.modal.expertise2': 'Community Development',
+        'team.comm.modal.expertise3': 'Waste Management',
+        'team.comm.modal.expertise4': 'Emissions & Pollution',
+        'team.comm.modal.expertise5': 'Environmental Audit',
+        'team.comm.modal.expertise6': 'Stakeholder Engagement',
         //contact
 
         'contact_us': 'Contact us',
@@ -794,13 +958,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ==================== FONCTIONS UTILITAIRES ====================
 
-// Pour les traductions dynamiques en JavaScript
+// traductions dynamiques en JavaScript
 function translate(key, lang = null) {
     const language = lang || localStorage.getItem('preferredLanguage') || 'fr';
     return translations[language][key] || key;
 }
 
-// Pour les templates avec variables
+// templates avec variables
 function translateWithParams(key, params, lang = null) {
     let text = translate(key, lang);
     Object.keys(params).forEach(param => {

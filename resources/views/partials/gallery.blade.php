@@ -15,48 +15,49 @@
 
         <!-- Filtres -->
         <div class="flex flex-wrap justify-center gap-3 md:gap-4 mb-12" data-aos="fade-up">
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition flex items-center text-sm md:text-base" data-filter="all">
-                <i class="fas fa-th-large mr-2"></i> All Projects
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition flex items-center text-sm md:text-base" data-filter="all" data-translate="all_proj">
+                <i class="fas fa-th-large mr-2"></i> All
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="mining">
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="mining" data-translate="mining">
                 <i class="fas fa-hard-hat mr-2"></i> Mining
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="energy">
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="energy" data-translate="energy">
                 <i class="fas fa-bolt mr-2"></i> Energy
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="water">
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="water" data-translate="water">
                 <i class="fas fa-tint mr-2"></i> Water
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="community">
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="community" data-translate="community">
                 <i class="fas fa-users mr-2"></i> Community
+            </button>
+            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="agriculture"data-translate="agriculture ">
+                <i class="mr-2"></i> Agriculture
             </button>
         </div>
 
         <!-- Grille Gallery -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-aos="fade-up">
-            <!-- Image 1 - Mining -->
+            <!-- Image 1 - Environmental Impact Assessment for Mining  -->
             <div class="gallery-item group cursor-pointer" data-category="mining">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1621451537084-482c73073a0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Mining rehabilitation project" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/ciel_ouvert.jpg') }}" alt="Identification of Land Agriculture " class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
                             <i class="fas fa-hard-hat text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Mining Rehabilitation</p>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.enviro">Environmental Impact Assessment for Mining </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 2 - Energy -->
-            <div class="gallery-item group cursor-pointer" data-category="energy">
+            <!-- Image 2 - Identification of Land Agriculture  -->
+            <div class="gallery-item group cursor-pointer" data-category="agriculture">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Solar energy installation" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/identification_land.jpg') }}" alt="Identification of Land Agriculture " class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-bolt text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Solar Energy</p>
+                            <i class="text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="identif">Identification of Land Agriculture</p>
                         </div>
                     </div>
                 </div>
@@ -65,66 +66,143 @@
             <!-- Image 3 - Water -->
             <div class="gallery-item group cursor-pointer" data-category="water">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1570804439975-69a6d8c05e3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Water management system" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/hydrology_survey.jpg') }}" alt="Hydrology Survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
                             <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Water Management</p>
+                            <p class="font-semibold text-sm md:text-base" data-translate="hydrol">Hydrology Survey</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 4 - Community -->
+            <!-- Image 4 - Socio-economic studies -->
             <div class="gallery-item group cursor-pointer" data-category="community">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Community development project" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/socio_economic.png') }}" alt="Socio-economic studies" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
                             <i class="fas fa-users text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Community Development</p>
+                            <p class="font-semibold text-sm md:text-base" data-translate="eco.studies">Socio-economic studies</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 5 - Mining -->
+            <!-- Image 5 - Artisanal Mining Impact Assessment  -->
             <div class="gallery-item group cursor-pointer" data-category="mining">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1593113630400-ea4288922497?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Environmental field research" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/mining_gal.jpg') }}" alt="Artisanal Mining Impact Assessment" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
                             <i class="fas fa-hard-hat text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Field Research</p>
+                            <p class="font-semibold text-sm md:text-base" data-translate="artisanal">Artisanal Mining Impact Assessment </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Image 6 - Energy -->
+            <!-- Image 6 - Tracking de la ligne electrique -->
             <div class="gallery-item group cursor-pointer" data-category="energy">
                 <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
-                         alt="Wind energy project" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <img src="{{ asset('images/line_energy.jpg') }}" alt="Tracking de la ligne electrique" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
                         <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
                             <i class="fas fa-bolt text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base">Wind Energy</p>
+                            <p class="font-semibold text-sm md:text-base" data-translate="energi.tracking">Tracking de la ligne electrique</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 7 - Aquatic Assessment -->
+            <div class="gallery-item group cursor-pointer" data-category="water">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/aquatic_ass.jpg') }}" alt="Aquatic Assessment" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.aquatic">Aquatic Assessment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 8 - Fied visit for geological survey  -->
+            <div class="gallery-item group cursor-pointer" data-category="mining">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/fied_visit.jpg') }}" alt="Fied visit for geological survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.fied">Fied visit for geological survey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 9 - Hydrolic Resources Survey -->
+            <div class="gallery-item group cursor-pointer" data-category="water">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/ress.hydroliques.jpg') }}" alt="Hydrolic Resources Survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.ress.hydrol">Hydrolic Resources Survey</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 10 - Fauna & Flora Study  -->
+            <div class="gallery-item group cursor-pointer" data-category="agriculture">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/fauna.jpg') }}" alt="Fauna & Flora Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.faune">Etude de la Faune & de la Flore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 11 - Community Social Index Development Study  -->
+            <div class="gallery-item group cursor-pointer" data-category="community">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/community_social.jpg') }}" alt="Community Social Index Development Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="gal.com.social">Community Social Index Development Study</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image 12 - Social Baseline Study -->
+            <div class="gallery-item group cursor-pointer" data-category="community">
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
+                    <img src="{{ asset('images/baseline.jpg') }}" alt="Social Baseline Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            <i class="fas fa-users text-2xl md:text-3xl mb-2"></i>
+                            <p class="font-semibold text-sm md:text-base" data-translate="baseline">Social Baseline Study</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+
+
+
         <!-- Bouton Voir Plus -->
-        <div class="text-center mt-12" data-aos="fade-up">
+        {{-- <div class="text-center mt-12" data-aos="fade-up">
             <button class="px-6 py-3 md:px-8 md:py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition font-semibold text-sm md:text-base">
                 View More Projects
             </button>
-        </div>
+        </div> --}}
     </div>
 </section>
 

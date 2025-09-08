@@ -10,7 +10,7 @@
      <!-- Impact Section with Animated Counter -->
     @include('partials.gallery')
     <!-- Testimonials Section -->
-    {{-- @include('partials.testimonials') --}}
+    @include('partials.testimonials')
     <!-- Newsletter Section with Floating Elements -->
     @include('partials.newsletter')
     <!-- Contact Section -->

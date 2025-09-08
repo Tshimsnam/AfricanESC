@@ -16,9 +16,6 @@
                             class="inline-block transform hover:scale-105 transition duration-300 text-green-200" data-translate="hero.Environmental">Environmental
                             Impact</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-green-100 mb-10 max-w-3xl mx-auto" data-translate="hero.Safeguarding">
-                        Safeguarding Africa’s Natural Heritage
-                    </p>
                 </div>
             </div>
         </div>
@@ -37,9 +34,6 @@
                         <span
                             class="inline-block transform hover:scale-105 transition duration-300 text-blue-200" data-translate="hero.communities">Communities</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto" data-translate="hero.empowering">
-                        Empowering Communities, Ensuring Equity
-                    </p>
                 </div>
             </div>
         </div>
@@ -57,9 +51,6 @@
                         <span
                             class="inline-block transform hover:scale-105 transition duration-300 text-yellow-200" data-translate="hero.hydro">Hydrogeology</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-yellow-100 mb-10 max-w-3xl mx-auto" data-translate="hero.smart">
-                        Smart Water Solutions for Africa
-                    </p>
                 </div>
             </div>
         </div>
@@ -77,9 +68,75 @@
                         <span
                             class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.industries">Industries</span>
                     </h1>
-                    <p class="text-xl md:text-2xl text-teal-100 mb-10 max-w-3xl mx-auto" data-translate="hero.responsible">
-                        Responsible Extraction, Renewable Futures
-                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Socio- economic Impact Assessment -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/socio_economic.png') }}" alt="socio-economic" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.socio_econom">Socio-economic</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.impact">Impact Assessment</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Natural Water Ressources Management  -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/hydrology_survey.jpg') }}" alt="socio-economic" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.natural">Natural Water</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.ressources">Ressources Management</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Environmental Impact Assessment  -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/ciel_ouvert.jpg') }}" alt="socio-economic" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.environmental">Environmental</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.assessment">Impact Assessment</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+                <!-- Identification of Land Agriculture  -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/identification_land.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.identification">Identification of</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.land">Land Agriculture</span>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -108,7 +165,24 @@
             data-slide="2"></button>
         <button
             class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
-            data-slide="3"></button>
+            data-slide="3">
+        </button>
+        <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="4">
+        </button>
+         <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="5">
+        </button>
+         <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="6">
+        </button>
+        <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="7">
+        </button>
     </div>
 
     <!-- Flèche vers le bas -->
