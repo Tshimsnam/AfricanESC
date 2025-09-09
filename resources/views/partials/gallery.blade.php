@@ -176,6 +176,48 @@
             translate: "energi.tracking"
         },
         {
+            src: "{{ asset('images/grille.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/habita.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/water.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/carriere.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/karriere.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/mines.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
             src: "{{ asset('images/aquatic_ass.jpg') }}",
             alt: "Aquatic Assessment",
             title: "Aquatic Assessment",
@@ -216,7 +258,49 @@
             title: "Social Baseline Study",
             icon: "fas fa-users",
             translate: "baseline"
-        }
+        },
+        {
+            src: "{{ asset('images/savane.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/social.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/group.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/aes_consulting.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/pierre.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
+        {
+            src: "{{ asset('images/roche.jpg') }}",
+            alt: "",
+            title: "",
+            icon: "",
+            translate: ""
+        },
     ];
 
     let currentPage = 0;
