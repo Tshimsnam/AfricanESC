@@ -142,6 +142,92 @@
         </div>
     </div>
 
+    <!-- Social baseline studies  -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/baseline.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.soc">Social</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.baseline">baseline studies</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fauna & Flora Survey -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/fauna.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.fauna">Fauna &</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.flora">Flora Survey</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+         <!-- Community Social Development Index Studies -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/community_social.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.com">Community Social</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.devindex">Development Index Studies</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+         <!-- Aquatic and Wetland Assessment -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/aquatic_ass.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.aquatic">Aquatic and Wetland Assessment</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.wetland">Wetland Assessment</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Geological Survey -->
+        <div class="absolute inset-0 slide opacity-0 transition-opacity duration-1000">
+            <div class="absolute inset-0 opacity-90 overflow-hidden">
+                <img src="{{ asset('images/fied_visit.jpg') }}" alt="agriculture_land" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-teal-900 to-transparent opacity-80"></div>
+            <div class="relative z-10 h-full flex items-center justify-center text-center px-4">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="title-font text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+                        <span class="inline-block transform hover:scale-105 transition duration-300" data-translate="hero.geolo">Geological</span>
+                        <span
+                            class="inline-block transform hover:scale-105 transition duration-300 text-teal-200" data-translate="hero.survey">Survey</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Flèches de navigation -->
     <button
         class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 slide-arrow bg-white bg-opacity-30 hover:bg-opacity-50 text-white rounded-full w-12 h-12 flex items-center justify-center transition-all duration-300">
@@ -182,6 +268,22 @@
         <button
             class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
             data-slide="7">
+        </button>
+         <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="8">
+        </button>
+         <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="9">
+        </button>
+         <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="10">
+        </button>
+          <button
+            class="slide-control w-3 h-3 rounded-full bg-white opacity-50 hover:opacity-100 focus:outline-none transition-opacity duration-300"
+            data-slide="11">
         </button>
     </div>
 

@@ -13,200 +13,34 @@
             </p>
         </div>
 
-        <!-- Filtres -->
-        <div class="flex flex-wrap justify-center gap-3 md:gap-4 mb-12" data-aos="fade-up">
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-green-600 text-white rounded-full hover:bg-green-700 transition flex items-center text-sm md:text-base" data-filter="all" data-translate="all_proj">
-                <i class="fas fa-th-large mr-2"></i> All
+        <!-- Conteneur de galerie avec navigation -->
+        <div class="relative" data-aos="fade-up">
+            <!-- Flèche de navigation gauche -->
+            <button id="prevButton" class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-6 bg-white rounded-full p-3 shadow-md hover:shadow-lg z-10 transition-all opacity-80 hover:opacity-100">
+                <i class="fas fa-chevron-left text-green-600 text-xl"></i>
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="mining" data-translate="mining">
-                <i class="fas fa-hard-hat mr-2"></i> Mining
+
+            <!-- Conteneur des images -->
+            <div class="gallery-container overflow-hidden">
+                <div id="galleryTrack" class="grid grid-cols-3 gap-6 transition-transform duration-500">
+                    <!-- Les images seront chargées dynamiquement ici -->
+                </div>
+            </div>
+
+            <!-- Flèche de navigation droite -->
+            <button id="nextButton" class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-6 bg-white rounded-full p-3 shadow-md hover:shadow-lg z-10 transition-all opacity-80 hover:opacity-100">
+                <i class="fas fa-chevron-right text-green-600 text-xl"></i>
             </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="energy" data-translate="energy">
-                <i class="fas fa-bolt mr-2"></i> Energy
-            </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="water" data-translate="water">
-                <i class="fas fa-tint mr-2"></i> Water
-            </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="community" data-translate="community">
-                <i class="fas fa-users mr-2"></i> Community
-            </button>
-            <button class="filter-btn px-4 py-2 md:px-6 md:py-2 bg-white text-gray-700 border border-gray-300 rounded-full hover:bg-green-50 transition flex items-center text-sm md:text-base" data-filter="agriculture"data-translate="agriculture ">
-                <i class="mr-2"></i> Agriculture
-            </button>
-        </div>
 
-        <!-- Grille Gallery -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6" data-aos="fade-up">
-            <!-- Image 1 - Environmental Impact Assessment for Mining  -->
-            <div class="gallery-item group cursor-pointer" data-category="mining">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/ciel_ouvert.jpg') }}" alt="Identification of Land Agriculture " class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-hard-hat text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.enviro">Environmental Impact Assessment for Mining </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 2 - Identification of Land Agriculture  -->
-            <div class="gallery-item group cursor-pointer" data-category="agriculture">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/identification_land.jpg') }}" alt="Identification of Land Agriculture " class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="identif">Identification of Land Agriculture</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 3 - Water -->
-            <div class="gallery-item group cursor-pointer" data-category="water">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/hydrology_survey.jpg') }}" alt="Hydrology Survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="hydrol">Hydrology Survey</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 4 - Socio-economic studies -->
-            <div class="gallery-item group cursor-pointer" data-category="community">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/socio_economic.png') }}" alt="Socio-economic studies" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-users text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="eco.studies">Socio-economic studies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 5 - Artisanal Mining Impact Assessment  -->
-            <div class="gallery-item group cursor-pointer" data-category="mining">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/mining_gal.jpg') }}" alt="Artisanal Mining Impact Assessment" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-hard-hat text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="artisanal">Artisanal Mining Impact Assessment </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 6 - Tracking de la ligne electrique -->
-            <div class="gallery-item group cursor-pointer" data-category="energy">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/line_energy.jpg') }}" alt="Tracking de la ligne electrique" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-bolt text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="energi.tracking">Tracking de la ligne electrique</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 7 - Aquatic Assessment -->
-            <div class="gallery-item group cursor-pointer" data-category="water">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/aquatic_ass.jpg') }}" alt="Aquatic Assessment" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.aquatic">Aquatic Assessment</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 8 - Fied visit for geological survey  -->
-            <div class="gallery-item group cursor-pointer" data-category="mining">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/fied_visit.jpg') }}" alt="Fied visit for geological survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.fied">Fied visit for geological survey</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 9 - Hydrolic Resources Survey -->
-            <div class="gallery-item group cursor-pointer" data-category="water">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/ress.hydroliques.jpg') }}" alt="Hydrolic Resources Survey" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-tint text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.ress.hydrol">Hydrolic Resources Survey</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 10 - Fauna & Flora Study  -->
-            <div class="gallery-item group cursor-pointer" data-category="agriculture">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/fauna.jpg') }}" alt="Fauna & Flora Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.faune">Etude de la Faune & de la Flore</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 11 - Community Social Index Development Study  -->
-            <div class="gallery-item group cursor-pointer" data-category="community">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/community_social.jpg') }}" alt="Community Social Index Development Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="gal.com.social">Community Social Index Development Study</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Image 12 - Social Baseline Study -->
-            <div class="gallery-item group cursor-pointer" data-category="community">
-                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300">
-                    <img src="{{ asset('images/baseline.jpg') }}" alt="Social Baseline Study" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
-                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
-                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
-                            <i class="fas fa-users text-2xl md:text-3xl mb-2"></i>
-                            <p class="font-semibold text-sm md:text-base" data-translate="baseline">Social Baseline Study</p>
-                        </div>
-                    </div>
-                </div>
+            <!-- Indicateurs de page -->
+            <div class="flex justify-center mt-8 space-x-2" id="pageIndicators">
+                <!-- Les indicateurs seront générés dynamiquement -->
             </div>
         </div>
-
-
-
-
-        <!-- Bouton Voir Plus -->
-        {{-- <div class="text-center mt-12" data-aos="fade-up">
-            <button class="px-6 py-3 md:px-8 md:py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition font-semibold text-sm md:text-base">
-                View More Projects
-            </button>
-        </div> --}}
     </div>
 </section>
 
-<!-- Modal Lightbox Optimisé Mobile -->
+<!-- Modal Lightbox (inchangé) -->
 <div id="galleryModal" class="fixed hidden inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-2 md:p-4">
     <div class="max-w-4xl w-full max-h-[90vh] relative">
         <button onclick="closeGalleryModal()" class="absolute -top-8 md:-top-12 right-0 text-white text-2xl hover:text-green-400 transition z-10">
@@ -232,71 +66,253 @@
 </div>
 
 <style>
-    .filter-btn.active {
-        @apply bg-green-600 text-white border-green-600;
+    .gallery-container {
+        width: 100%;
+        position: relative;
     }
 
     .gallery-item {
-        transition: transform 0.3s ease;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        break-inside: avoid;
+        margin-bottom: 1rem;
     }
 
     .gallery-item:hover {
         transform: translateY(-5px);
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
     }
 
-    #galleryModal {
-        touch-action: manipulation;
+    .page-indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #d1d5db;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .page-indicator.active {
+        background-color: #16a34a;
+        transform: scale(1.3);
+    }
+
+    /* Cacher les éléments non actifs */
+    .gallery-page {
+        display: none;
+    }
+
+    .gallery-page.active {
+        display: grid;
+    }
+
+    /* Style responsive */
+    @media (max-width: 768px) {
+        #galleryTrack {
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        #prevButton {
+            left: -0.5rem;
+            transform: translateY(-50%) scale(0.8);
+        }
+
+        #nextButton {
+            right: -0.5rem;
+            transform: translateY(-50%) scale(0.8);
+        }
+    }
+
+    @media (max-width: 640px) {
+        #galleryTrack {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 
 <script>
-    // Filtrage des images
-    document.querySelectorAll('.filter-btn').forEach(button => {
-        button.addEventListener('click', function() {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.remove('active', 'bg-green-600', 'text-white');
-                btn.classList.add('bg-white', 'text-gray-700');
-            });
+    // Données de la galerie
+    const galleryData = [
+        {
+            src: "{{ asset('images/ciel_ouvert.jpg') }}",
+            alt: "Identification of Land Agriculture",
+            title: "Environmental Impact Assessment for Mining",
+            icon: "fas fa-hard-hat",
+            translate: "gal.enviro"
+        },
+        {
+            src: "{{ asset('images/identification_land.jpg') }}",
+            alt: "Identification of Land Agriculture",
+            title: "Identification of Land Agriculture",
+            icon: "",
+            translate: "identif"
+        },
+        {
+            src: "{{ asset('images/hydrology_survey.jpg') }}",
+            alt: "Hydrology Survey",
+            title: "Hydrology Survey",
+            icon: "fas fa-tint",
+            translate: "hydrol"
+        },
+        {
+            src: "{{ asset('images/socio_economic.png') }}",
+            alt: "Socio-economic studies",
+            title: "Socio-economic studies",
+            icon: "fas fa-users",
+            translate: "eco.studies"
+        },
+        {
+            src: "{{ asset('images/mining_gal.jpg') }}",
+            alt: "Artisanal Mining Impact Assessment",
+            title: "Artisanal Mining Impact Assessment",
+            icon: "fas fa-hard-hat",
+            translate: "artisanal"
+        },
+        {
+            src: "{{ asset('images/line_energy.jpg') }}",
+            alt: "Tracking de la ligne electrique",
+            title: "Tracking de la ligne electrique",
+            icon: "fas fa-bolt",
+            translate: "energi.tracking"
+        },
+        {
+            src: "{{ asset('images/aquatic_ass.jpg') }}",
+            alt: "Aquatic Assessment",
+            title: "Aquatic Assessment",
+            icon: "fas fa-tint",
+            translate: "gal.aquatic"
+        },
+        {
+            src: "{{ asset('images/fied_visit.jpg') }}",
+            alt: "Fied visit for geological survey",
+            title: "Fied visit for geological survey",
+            icon: "",
+            translate: "gal.fied"
+        },
+        {
+            src: "{{ asset('images/ress.hydroliques.jpg') }}",
+            alt: "Hydrolic Resources Survey",
+            title: "Hydrolic Resources Survey",
+            icon: "fas fa-tint",
+            translate: "gal.ress.hydrol"
+        },
+        {
+            src: "{{ asset('images/fauna.jpg') }}",
+            alt: "Fauna & Flora Study",
+            title: "Etude de la Faune & de la Flore",
+            icon: "",
+            translate: "gal.faune"
+        },
+        {
+            src: "{{ asset('images/community_social.jpg') }}",
+            alt: "Community Social Index Development Study",
+            title: "Community Social Index Development Study",
+            icon: "",
+            translate: "gal.com.social"
+        },
+        {
+            src: "{{ asset('images/baseline.jpg') }}",
+            alt: "Social Baseline Study",
+            title: "Social Baseline Study",
+            icon: "fas fa-users",
+            translate: "baseline"
+        }
+    ];
 
-            this.classList.add('active', 'bg-green-600', 'text-white');
-            this.classList.remove('bg-white', 'text-gray-700');
+    let currentPage = 0;
+    const itemsPerPage = 6; // 3 colonnes × 2 lignes = 6 images par page
+    let totalPages = Math.ceil(galleryData.length / itemsPerPage);
+    let currentImageIndex = 0;
+    const galleryImages = [];
 
-            const filter = this.getAttribute('data-filter');
-            filterGallery(filter);
-        });
+    document.addEventListener('DOMContentLoaded', function() {
+        initGallery();
+        renderGallery();
+        initLightbox();
+
+        // Événements pour les boutons de navigation
+        document.getElementById('prevButton').addEventListener('click', showPrevPage);
+        document.getElementById('nextButton').addEventListener('click', showNextPage);
     });
 
-    function filterGallery(filter) {
-        const items = document.querySelectorAll('.gallery-item');
-        items.forEach(item => {
-            if (filter === 'all' || item.getAttribute('data-category') === filter) {
-                item.style.display = 'block';
-            } else {
-                item.style.display = 'none';
-            }
+    function initGallery() {
+        // Initialisation des données pour la lightbox
+        galleryData.forEach(item => {
+            galleryImages.push({
+                src: item.src,
+                alt: item.alt,
+                title: item.title
+            });
         });
     }
 
-    // Lightbox functionality
-    let currentImageIndex = 0;
-    const galleryImages = [];
-    let touchStartX = 0;
-    let touchEndX = 0;
+    function renderGallery() {
+        const galleryTrack = document.getElementById('galleryTrack');
+        const indicatorsContainer = document.getElementById('pageIndicators');
 
-    function initGallery() {
-        document.querySelectorAll('.gallery-item').forEach((item, index) => {
-            const img = item.querySelector('img');
-            const title = item.querySelector('p')?.textContent || '';
+        galleryTrack.innerHTML = '';
+        indicatorsContainer.innerHTML = '';
 
-            galleryImages.push({
-                src: img.src,
-                alt: img.alt,
-                title: title
-            });
+        // Créer les indicateurs de page
+        for (let i = 0; i < totalPages; i++) {
+            const indicator = document.createElement('div');
+            indicator.classList.add('page-indicator');
+            if (i === currentPage) indicator.classList.add('active');
+            indicator.addEventListener('click', () => goToPage(i));
+            indicatorsContainer.appendChild(indicator);
+        }
 
-            item.addEventListener('click', () => openGalleryModal(index));
-        });
+        // Calculer les indices de début et de fin pour la page actuelle
+        const startIndex = currentPage * itemsPerPage;
+        const endIndex = Math.min(startIndex + itemsPerPage, galleryData.length);
 
+        // Ajouter les éléments de la page actuelle
+        for (let i = startIndex; i < endIndex; i++) {
+            const item = galleryData[i];
+            const galleryItem = document.createElement('div');
+            galleryItem.classList.add('gallery-item', 'group', 'cursor-pointer');
+            galleryItem.setAttribute('data-index', i);
+
+            galleryItem.innerHTML = `
+                <div class="relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition duration-300 h-full">
+                    <img src="${item.src}" alt="${item.alt}" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 flex items-center justify-center">
+                        <div class="text-white opacity-0 group-hover:opacity-100 transition duration-300 text-center">
+                            ${item.icon ? `<i class="${item.icon} text-2xl md:text-3xl mb-2"></i>` : ''}
+                            <p class="font-semibold text-sm md:text-base" data-translate="${item.translate}">${item.title}</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            galleryItem.addEventListener('click', () => openGalleryModal(i));
+            galleryTrack.appendChild(galleryItem);
+        }
+    }
+
+    function showPrevPage() {
+        if (currentPage > 0) {
+            currentPage--;
+            renderGallery();
+        }
+    }
+
+    function showNextPage() {
+        if (currentPage < totalPages - 1) {
+            currentPage++;
+            renderGallery();
+        }
+    }
+
+    function goToPage(page) {
+        if (page >= 0 && page < totalPages) {
+            currentPage = page;
+            renderGallery();
+        }
+    }
+
+    // Lightbox functions
+    function initLightbox() {
         // Swipe gestures pour mobile
         const modal = document.getElementById('galleryModal');
         if (modal) {
@@ -355,10 +371,5 @@
             if (e.key === 'ArrowRight') nextImage();
             if (e.key === 'ArrowLeft') prevImage();
         }
-    });
-
-    // Initialisation
-    document.addEventListener('DOMContentLoaded', function() {
-        initGallery();
     });
 </script>

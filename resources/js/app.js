@@ -204,16 +204,37 @@ const translations = {
        'hero.identification':'Identification',
        'hero.land':'des terres agricoles',
 
+       //social baseline
+       'hero.baseline':'Eude Sociale de  ',
+       'hero.soc':'base de référence',
+
+        //Flora Survey
+       'hero.flora':'Etude de la',
+       'hero.fauna':'Faune et Flore',
+
+       //community index
+       'hero.com':'Etude d’Index de ',
+       'hero.devindex':'Développement Social de communautés',
+
+        //aquatic
+       'hero.wetland':'Etude des habitats',
+       'hero.aquatic':'aquatiques et marécages',
+
+       //geological survey
+       'hero.geolo':'Investigation',
+       'hero.survey':'géologique',
+
         //services text
         'services1':"Nos",
         'services2':"services",
-        'services3':"African Environmental and Sustainability Consulting- (AES Consulting), offre des services de haute qualité et des solutions spécifiques dans les domaines suivants:",
+        'services3':"African Environmental and Sustainability Consulting- (AES Consulting), offre des services de haute qualités et des solutions spécifiques dans les domaines suivants:",
 
         // Services biophysique
         'services.bio.title': 'ENVIRONNEMENT BIOPHYSIQUE',
         'services.bio.desc': 'Évaluations environnementales complètes et stratégies d\'atténuation',
         'env.study':'Étude environnementale',
         'env.management':'Plan de gestion environnementale',
+        'services.social.item17':'Plan d’Atténuation et Réhabilitation',
         'services.view_all': 'Voir tout',
 
         // Modal Bio Environment
@@ -227,7 +248,7 @@ const translations = {
         'services.bio.item5': 'Évaluation environnementale et sociale stratégique',
         'services.bio.item6': 'Enquêtes RSPO (Table Ronde pour l\'Huile de Palme Durable)',
         'services.bio.item7': 'Évaluation de la Haute Valeur de Conservation des espèces biologiques',
-        'services.bio.item8': 'Plan de compensation biodiversité',
+        'services.bio.item8': 'Plan de compensation de la  biodiversité',
         'services.bio.item9': 'Plan d\'action pour la biodiversité',
         'services.bio.item10': 'Plan de réhabilitation et de fermeture des sites contaminés',
         'services.bio.item11': 'Audit environnemental',
@@ -334,7 +355,7 @@ const translations = {
 
         // Mines
         'sectors.mines.title': 'Mines',
-        'sectors.mines.description': 'ciel ouvert, souterrain et carrières.',
+        'sectors.mines.description': 'Ciel ouvert, souterraine et carrieres.',
 
         // Agro industries
         'sectors.agro.title': 'Agro-industries',
@@ -342,11 +363,11 @@ const translations = {
 
         // Energy
         'sectors.energy.title': 'Énergie',
-        'sectors.energy.description': 'énergie renouvelable : hydroélectricité, centrale thermique et ligne de Transmission Electrique.',
+        'sectors.energy.description': 'Energie Renouvelable : Hydroélectricité, Centrale thermique et Ligne de Transmission Electrique.',
 
         // Hydrocarbon
         'sectors.hydrocarbon.title': 'Hydrocarbures',
-        'sectors.hydrocarbon.description': 'Exploration et Exploitation (forage)  ',
+        'sectors.hydrocarbon.description': 'Exploration et Exploitation (Forage)  ',
 
         // Education
         'sectors.education.title': 'Éducation',
@@ -354,11 +375,11 @@ const translations = {
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
-        'sectors.infrastructure.description': 'routes, chemins de fer, ports, ligne de transmission electrique  et construction',
+        'sectors.infrastructure.description': 'Routes, Chemins de fer, ports, Ligne de Transmission Electrique  et Construction',
 
         // Geotechnical
         'sectors.geotechnical.title': 'Géotechnique',
-        'sectors.geotechnical.description': 'forage, tests mécaniques et identification des sols.',
+        'sectors.geotechnical.description': 'Forage, tests mécaniques et Identification des sols.',
 
         // IT
         'sectors.it.title': 'Technologie de l\'Information',
@@ -402,7 +423,7 @@ const translations = {
         'baseline':'Etude Sociale de base de référence',
 
 
-             // Section Équipe
+        // Section Équipe
         'team.subtitle': 'Notre Équipe',
         'team.title1': 'Rencontrez notre',
         'team.title2': 'équipe dirigeante',
@@ -426,11 +447,11 @@ const translations = {
 
         // Jean-Didier Mualaba
         'team.comm.name': 'JEAN-DIDIER MUALABA',
-        'team.comm.position': 'Directeur Communication & Partenariats',
+        'team.comm.position': 'Directeur',
         'team.comm.short_desc': 'Jean-Didier est un praticien engagé du développement communautaire et environnemental avec de nombreuses années d\'expérience dans le développement et le monitoring de la conformité environnementale...',
         'team.comm.view_profile': 'Voir le profil complet',
         'team.comm.modal.title': 'JEAN-DIDIER MUALABA',
-        'team.comm.modal.position': 'Directeur Communication & Partenariats',
+        'team.comm.modal.position': 'Directeur',
         'team.comm.modal.description1': 'Jean-Didier MUALABA est un praticien engagé du développement communautaire et environnemental avec de nombreuses années d\'expérience dans le développement et le monitoring de la conformité environnementale avec la législation actuelle en matière d\'émissions, de pollution, d\'empreinte carbone et de gestion des déchets.',
         'team.comm.modal.skills_title': 'Compétences clés :',
         'team.comm.modal.skill1': 'Expérience considérable dans la formulation de politiques environnementales, procédures et bonnes pratiques',
@@ -552,10 +573,31 @@ const translations = {
        'hero.identification':'Identification',
        'hero.land':'of Land Agriculture',
 
+          //social baseline
+       'hero.baseline':'Social',
+       'hero.soc':'baseline studies',
+
+       //Flora Survey
+        'hero.fauna':'Fauna &',
+       'hero.flora':'Flora Survey',
+
+
+       //community index
+       'hero.com':'Community Social',
+       'hero.devindex':'Development Index Studies',
+
+       //aquatic
+       'hero.wetland':'Aquatic and',
+       'hero.aquatic':'Wetland Assessment',
+
+       //geological survey
+       'hero.geolo':'Geological',
+       'hero.survey':'Survey',
+
         //services text
         'services1':"Our",
         'services2':"Services",
-        'services3':"African Environmental and Sustainability Consulting (AES Consulting) provides services for environmental and social studies, by delivering high quality services and specific solutions in the following area:",
+        'services3':"African Environmental and Sustainability Consulting (AES Consulting) provides services for environmental and social studies, by delivering high quality services and specific solutions in the following areas:",
 
         // Services Cards
         'services.bio.title': 'BIOPHYSICAL ENVIRONMENT',
@@ -583,7 +625,8 @@ const translations = {
         'services.bio.item13': 'Compliance Report',
         'services.bio.item14': 'Activity Report',
         'services.bio.item15': 'Mitigation and Rehabilitation Plan ',
-        'services.bio.item16':'Strategic Environmental Assessment',
+        'services.bio.item16':'Strategic Environmental Study',
+        'services.social.item17':'Plan d’Atténuation et Réhabilitation',
 
         //services social
         'services.social.title': 'SOCIAL ENVIRONMENT',
@@ -682,19 +725,19 @@ const translations = {
 
         // Mines
         'sectors.mines.title': 'Mines',
-        'sectors.mines.description': 'open pit, underground and quarries.',
+        'sectors.mines.description': 'Open pit, Underground and Quarries.',
 
         // Agro industries
         'sectors.agro.title': 'Agro industries',
-        'sectors.agro.description': 'palm oil plantation, Hevea plantation, other types of plantations.',
+        'sectors.agro.description': 'Palm oil plantation, Hevea Plantation, other types of Plantations.',
 
         // Energy
         'sectors.energy.title': 'Energy',
-        'sectors.energy.description': 'renewable energy: hydropower, thermal power plant and Power Line.',
+        'sectors.energy.description': 'Renewable Energy, Hydropower Plant, Power Line Thermal Power Plant.',
 
         // Hydrocarbon
         'sectors.hydrocarbon.title': 'Fossil Fuels',
-        'sectors.hydrocarbon.description': 'Exploitation-drilling',
+        'sectors.hydrocarbon.description': 'Exploration and Exploitation',
 
         // Education
         'sectors.education.title': 'Education',
@@ -702,11 +745,11 @@ const translations = {
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
-        'sectors.infrastructure.description': 'roads, railways, ports, power line and construction',
+        'sectors.infrastructure.description': 'Roads, Railways, Ports, Power Line, Construction.',
 
         // Geotechnical
         'sectors.geotechnical.title': 'Geotechnical',
-        'sectors.geotechnical.description': 'drilling, mechanical tests and soil identification.',
+        'sectors.geotechnical.description': 'Drilling, Mechanical Tests and Soil identification.',
 
         // IT
         'sectors.it.title': 'Information Technology',
@@ -773,11 +816,11 @@ const translations = {
 
         // Jean-Didier Mualaba
         'team.comm.name': 'JEAN-DIDIER MUALABA',
-        'team.comm.position': 'Communication & Partnerships Director',
+        'team.comm.position': 'Director',
         'team.comm.short_desc': 'Jean-Didier is a committed community and environmental development practitioner with many years of experience in developing and monitoring environmental compliance...',
         'team.comm.view_profile': 'View full profile',
         'team.comm.modal.title': 'JEAN-DIDIER MUALABA',
-        'team.comm.modal.position': 'Communication & Partnerships Director',
+        'team.comm.modal.position': 'Director',
         'team.comm.modal.description1': 'Jean-Didier MUALABA is a committed community and environmental development practitioner with many years of experience in developing and monitoring environmental compliance with current legislation on emissions, pollution, carbon footprint and waste management.',
         'team.comm.modal.skills_title': 'Key skills :',
         'team.comm.modal.skill1': 'Considerable experience in formulating environmental policies, procedures and best practices',

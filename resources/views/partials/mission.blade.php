@@ -251,6 +251,10 @@
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
                                     <span data-translate="services.social.item12">Stakeholders Engagement Plan.</span>
                                 </li>
+                                <li class="flex items-start p-2 hover:bg-green-50 rounded">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+                                    <span data-translate="services.social.item17">Plan d’Atténuation et Réhabilitation </span>
+                                </li>
                             </ul>
                         </div>
                     </div>
