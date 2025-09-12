@@ -79,8 +79,8 @@
                                 </li>
                                 <li class="flex items-start p-2 hover:bg-green-50 rounded">
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
-                                    <span data-translate="services.bio.item5">Strategic Environmental and Social
-                                        Assessment</span>
+                                    <span data-translate="services.bio.item8">Biodiversity compensation/off set
+                                        Plan</span>
                                 </li>
                                 <li class="flex items-start p-2 hover:bg-green-50 rounded">
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
@@ -95,11 +95,7 @@
                             </ul>
 
                             <ul class="space-y-3 text-gray-700">
-                                <li class="flex items-start p-2 hover:bg-green-50 rounded">
-                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
-                                    <span data-translate="services.bio.item8">Biodiversity compensation/off set
-                                        Plan</span>
-                                </li>
+
                                 <li class="flex items-start p-2 hover:bg-green-50 rounded">
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
                                     <span data-translate="services.bio.item9">Biodiversity Action Plan</span>
@@ -224,7 +220,7 @@
                                 </li>
                                 <li class="flex items-start p-2 hover:bg-green-50 rounded">
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
-                                    <span data-translate="services.social.item7">Stakeholders 'Engagement.</span>
+                                    <span data-translate="services.social.item7">Stakeholders 'Engagement Plan.</span>
                                 </li>
                             </ul>
                             <ul class="space-y-3 text-gray-700">
@@ -246,14 +242,6 @@
                                     <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
                                     <span data-translate="services.social.item11">Community Project Plan for
                                         Sustainable Development.</span>
-                                </li>
-                                <li class="flex items-start p-2 hover:bg-green-50 rounded">
-                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
-                                    <span data-translate="services.social.item12">Stakeholders Engagement Plan.</span>
-                                </li>
-                                <li class="flex items-start p-2 hover:bg-green-50 rounded">
-                                    <i class="fas fa-check-circle text-green-500 mt-1 mr-3 flex-shrink-0"></i>
-                                    <span data-translate="services.social.item17">Plan d’Atténuation et Réhabilitation </span>
                                 </li>
                             </ul>
                         </div>

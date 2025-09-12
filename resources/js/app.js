@@ -170,6 +170,7 @@ const translations = {
         'nav.gallery': 'Gallerie',
         'nav.contact': 'Contact',
         'nav.brochure': 'Brochure Télécharger',
+        'nav.list':'liste des projets',
         'nav.language': 'Langue',
 
         // Hero Section Biodiversity
@@ -177,64 +178,67 @@ const translations = {
         'hero.Environmental': 'et Plan de Gestion Durable',
 
         //hero section Social
-        'hero.social':'Politique de la Responsabilité ',
-        'hero.communities':'Sociale pour les communautés',
+        'hero.social': 'Politique de la Responsabilité ',
+        'hero.communities': 'Sociale pour les communautés',
 
-         //hero section water
-        'hero.water':'Etude',
-        'hero.hydro':'hydrogéologique',
+        //hero section water
+        'hero.water': 'Etude',
+        'hero.hydro': 'hydrogéologique',
 
         //hero section industries
-        'hero.sustainable':'Processus Industriel ',
-        'hero.industries':'Durable',
+        'hero.sustainable': 'Processus Industriel ',
+        'hero.industries': 'Durable',
 
         //hero socio-ecomic
-        'hero.socio_econom':'Etude d’Impact',
-        'hero.impact':'Socio-Economique',
+        'hero.socio_econom': 'Etude d’Impact',
+        'hero.impact': 'Socio-Economique',
 
         //hero hydrology
-       'hero.natural':'Gestion de Ressources',
-       'hero.ressources':'des Eaux Naturelles',
+        'hero.natural': 'Gestion de Ressources',
+        'hero.ressources': 'des Eaux Naturelles',
 
-       //environemental
-       'hero.environmental':'Etude d’Impact',
-       'hero.assessment':'Environnemental',
+        //environemental
+        'hero.environmental': 'Etude d’Impact',
+        'hero.assessment': 'Environnemental',
 
-       //agriculture
-       'hero.identification':'Identification',
-       'hero.land':'des terres agricoles',
+        //agriculture
+        'hero.identification': 'Identification',
+        'hero.land': 'des terres agricoles',
 
-       //social baseline
-       'hero.baseline':'Eude Sociale de  ',
-       'hero.soc':'base de référence',
+        //social baseline
+        'hero.soc': 'Etude Sociale de ',
+        'hero.baseline': 'Base de Référence',
+
 
         //Flora Survey
-       'hero.flora':'Etude de la',
-       'hero.fauna':'Faune et Flore',
+        'hero.fauna': 'Etude de la',
+        'hero.flora': 'Faune et Flore',
 
-       //community index
-       'hero.com':'Etude d’Index de ',
-       'hero.devindex':'Développement Social de communautés',
+
+        //community index
+        'hero.com': 'Etude d’Index de ',
+        'hero.devindex': 'Développement Social de Communautés',
 
         //aquatic
-       'hero.wetland':'Etude des habitats',
-       'hero.aquatic':'aquatiques et marécages',
+        'hero.aquatic': 'Etude des Habitats ',
+        'hero.wetland': 'Aquatiques et Marécageux',
 
-       //geological survey
-       'hero.geolo':'Investigation',
-       'hero.survey':'géologique',
+
+        //geological survey
+        'hero.geolo': 'Investigation',
+        'hero.survey': 'géologique',
 
         //services text
-        'services1':"Nos",
-        'services2':"services",
-        'services3':"African Environmental and Sustainability Consulting- (AES Consulting), offre des services de haute qualités et des solutions spécifiques dans les domaines suivants:",
+        'services1': "Nos",
+        'services2': "services",
+        'services3': "African Environmental and Sustainability Consulting- (AES Consulting), offre des services de hautes qualités et des solutions spécifiques dans les domaines suivants:",
 
         // Services biophysique
         'services.bio.title': 'ENVIRONNEMENT BIOPHYSIQUE',
         'services.bio.desc': 'Évaluations environnementales complètes et stratégies d\'atténuation',
-        'env.study':'Étude environnementale',
-        'env.management':'Plan de gestion environnementale',
-        'services.social.item17':'Plan d’Atténuation et Réhabilitation',
+        'env.study': 'Étude environnementale',
+        'env.management': 'Plan de Gestion Environnementale',
+        'services.social.item17': 'Plan d’Atténuation et Réhabilitation',
         'services.view_all': 'Voir tout',
 
         // Modal Bio Environment
@@ -245,49 +249,49 @@ const translations = {
         'services.bio.item2': 'Plan de Gestion Environnementale (pour l’exploitation minière industrielle et des petites mines)',
         'services.bio.item3': 'Évaluation de la faune et de la flore',
         'services.bio.item4': 'Évaluation des milieux aquatiques et humides',
-        'services.bio.item5': 'Évaluation environnementale et sociale stratégique',
+        'services.bio.item5': '',
         'services.bio.item6': 'Enquêtes RSPO (Table Ronde pour l\'Huile de Palme Durable)',
         'services.bio.item7': 'Évaluation de la Haute Valeur de Conservation des espèces biologiques',
-        'services.bio.item8': 'Plan de compensation de la  biodiversité',
+        'services.bio.item8': 'Plan de Compensation de la Biodiversité',
         'services.bio.item9': 'Plan d\'action pour la biodiversité',
         'services.bio.item10': 'Plan de réhabilitation et de fermeture des sites contaminés',
         'services.bio.item11': 'Audit environnemental',
-        'services.bio.item12': 'Due Diligence pour les risques environnementaux et sociaux',
+        'services.bio.item12': 'Diligence pour les risques environnementaux et sociaux',
         'services.bio.item13': 'Rapport de conformité',
-        'services.bio.item14': 'Rapport d\'activité',
+        'services.bio.item14': 'Rapport d\'activités',
         'services.bio.item15': 'Plan d’Atténuation et Réhabilitation',
         'services.bio.item16': 'Etude Stratégique Environnementale',
 
         //services social
         'services.social.title': 'ENVIRONNEMENT SOCIAL',
         'services.social.desc': 'Favoriser l’harmonie entre l’entreprise et la communauté',
-        'socio-economic':'Évaluation de l’impact socio-économique',
-        'resettlement':'Plan d’action de réinstallation',
-        'social.close':'Voir tout',
+        'socio-economic': 'Etude de l’impact socio-économique',
+        'resettlement': 'Plan d’action de réinstallation',
+        'social.close': 'Voir tout',
 
         //modal social environement
         'modal.social.title': 'Environnement Social',
 
-        'services.social.item1': 'Évaluation d\'impact socio-économique',
-        'services.social.item2': 'Plan d\'action de réinstallation',
-        'services.social.item3': 'Plan de gestion sociale',
-        'services.social.item4': 'Développement de politiques de Responsabilité Sociale d\'Entreprise',
-        'services.social.item5': 'Audit de conformité aux standards sociaux',
-        'services.social.item6': 'Rapport de durabilité',
-        'services.social.item7': 'Engagement des parties prenantes',
+        'services.social.item1': 'Etude d\'Impact Socio-Economique',
+        'services.social.item2': 'Plan d\'Action de Réinstallations (Délocalisation et Relocalisation)',
+        'services.social.item3': 'Plan de Gestion Sociale',
+        'services.social.item4': 'Développement de Politiques de Responsabilité Sociale d\'Entreprise',
+        'services.social.item5': 'Audit de Conformité aux Standards Sociaux',
+        'services.social.item6': 'Rapport de Durabilité',
+        'services.social.item7': 'Plan de Consultation des Parties Prenantes',
         'services.social.item8': 'Gestion des relations communautaires',
         'services.social.item9': 'Développement de mécanismes de gestion des conflits et des plaintes',
         'services.social.item10': 'Évaluation des relations entre l\'entreprise et la communauté',
-        'services.social.item11': 'Plan de projet communautaire pour le développement durable',
-        'services.social.item12':'Plan de Consultation des Parties Prenantes',
+        'services.social.item11': 'Plan de Projets Communautaires pour le Développement Durable',
+        'services.social.item12': 'Plan de Consultation des Parties Prenantes',
 
 
         //services Hydrogeologie & hydrologie
         'services.hydro.title': 'HYDROGÉOLOGIE & HYDROLOGIE',
         'services.hydro.desc': 'Ensemble, nous protégeons l’eau et favorisons une croissance durable.',
-        'groundwater':'Évaluation des flux d’eaux souterraines et de surface',
-        'execution':'Réalisation de forages d’eau potable',
-        'hydro.view':'Voir tout',
+        'groundwater': 'Évaluation des flux d’eaux souterraines et de surface',
+        'execution': 'Réalisation de forages d’eau potable',
+        'hydro.view': 'Voir tout',
 
         //modal hydrogeologie et hydrologie
         'modal.hydro.title': 'HYDROGÉOLOGIE & HYDROLOGIE',
@@ -308,8 +312,8 @@ const translations = {
         //service geotechnic
         'services.geo.title': 'GÉOTECHNIQUE',
         'services.geo.desc': 'Garantir un sol sûr et stable pour chaque projet.',
-        'surveys':'Études et essais sur site.',
-        'rock':'Mécanique des roches, béton et sols',
+        'surveys': 'Études et essais sur site.',
+        'rock': 'Mécanique des roches, béton et sols',
         //modal geotechnic
         'modal.geo.title': 'GÉOTECHNIQUE',
 
@@ -324,9 +328,9 @@ const translations = {
         //service formation
         'services.training.title': 'FORMATION',
         'services.training.desc': 'Renforcer les compétences pour la croissance.',
-        'environ.maneg':'Gestion environnementale.',
-        'health':'Santé et sécurité au travail',
-        'health.view':'Voir tout',
+        'environ.maneg': 'Gestion environnementale.',
+        'health': 'Santé et sécurité au travail',
+        'health.view': 'Voir tout',
 
         //modal formation
         'modal.training.title': 'FORMATION',
@@ -334,7 +338,7 @@ const translations = {
         'services.training.item1': 'Gestion environnementale',
         'services.training.item2': 'Santé et Sécurité au travail',
         'services.training.item3': 'Développement d\'Études d\'Impact Environnemental et Social (EIES), Études de Faisabilité',
-        'services.training.item4': 'Conception et Gestion de Projet',
+        'services.training.item4': 'Conception et Gestion des Projets',
         'services.training.item5': 'Audit et Système de Management Environnemental et Social',
         'services.training.item6': 'Autres logiciels disponibles dans notre système de réseau informatique',
 
@@ -344,7 +348,7 @@ const translations = {
         'modal.hydro.title': 'Hydrogéologie & Hydrologie',
         'modal.geo.title': 'Géotechnique',
         'modal.training.title': 'Formation',
-        'geotechnic.view':'Voir tout',
+        'geotechnic.view': 'Voir tout',
 
         //secteurs
         'sectors.subtitle': 'Secteurs',
@@ -359,7 +363,7 @@ const translations = {
 
         // Agro industries
         'sectors.agro.title': 'Agro-industries',
-        'sectors.agro.description': 'plantation de palmiers à huile, plantation d\'hévéa, autres types de plantations.',
+        'sectors.agro.description': 'Plantations des palmiers à huile, plantations d\'hévéa, autres types de plantations.',
 
         // Energy
         'sectors.energy.title': 'Énergie',
@@ -371,7 +375,7 @@ const translations = {
 
         // Education
         'sectors.education.title': 'Éducation',
-        'sectors.education.description': 'Projet éducatif',
+        'sectors.education.description': 'Projets Educatifs',
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
@@ -386,9 +390,9 @@ const translations = {
         'sectors.it.description': 'Logiciels de base de données et applications',
 
         //mission
-        'contribute':'Contribuer au développement durable de l’Afrique.',
-        'mission':'MISSION',
-        'our':'NOTRE',
+        'contribute': 'Contribuer au développement durable de l’Afrique.',
+        'mission': 'MISSION',
+        'our': 'NOTRE',
 
         // Sections
         'section.missions': 'Nos Missions',
@@ -397,30 +401,30 @@ const translations = {
         'section.contact': 'Contactez-nous',
 
         //gallery
-        'section.our':'NOTRE',
-        'section.project':'GALLERIE',
-        'discover':'Explorez nos projets environnementaux et nos solutions durables concrètes',
-        'gal':'gallerie',
-        'all_proj':'Tous',
-        'mining':'Exploitation minière',
-        'energy':'Energie',
-        'water':'Hydrologie',
-        'community':'Sociale',
-        'agriculture':'Agriculture',
+        'section.our': 'NOTRE',
+        'section.project': 'GALLERIE',
+        'discover': 'Explorez nos projets environnementaux et nos solutions durables concrètes',
+        'gal': 'gallerie',
+        'all_proj': 'Tous',
+        'mining': 'Exploitation minière',
+        'energy': 'Energie',
+        'water': 'Hydrologie',
+        'community': 'Sociale',
+        'agriculture': 'Agriculture',
 
         //translate photo
-        'hydrol':'Etude Hydrologique',
-        'identif':'Identification des terres agricoles',
-        'eco.studies':'Etudes Socio-économiques',
-        'energi.tracking':'Tracking de la ligne electrique',
-        'artisanal':'Etude d’Impact d’Exploitation Minière Artisanale.',
-        'gal.enviro':'Évaluation de l\'impact environnemental pour l\'exploitation minière',
-        'gal.aquatic':'Etude Aquatique',
-        'gal.fied':'Etude géologique de terrain',
-        'gal.ress.hydrol':'Evaluation des Ressources Hydroliques',
-        'gal.faune':'Etude de la Faune & de la Flore',
-        'gal.com.social':'Etude d’Index de Développement Social Communautaire.',
-        'baseline':'Etude Sociale de base de référence',
+        'hydrol': 'Etude Hydrologique',
+        'identif': 'Identification des terres agricoles',
+        'eco.studies': 'Etudes Socio-économiques',
+        'energi.tracking': 'Tracking de la ligne electrique',
+        'artisanal': 'Etude d’Impact d’Exploitation Minière Artisanale.',
+        'gal.enviro': 'Évaluation de l\'impact environnemental pour l\'exploitation minière',
+        'gal.aquatic': 'Etude Aquatique',
+        'gal.fied': 'Etude géologique de terrain',
+        'gal.ress.hydrol': 'Evaluation des Ressources Hydroliques',
+        'gal.faune': 'Etude de la Faune & de la Flore',
+        'gal.com.social': 'Etude d’Index de Développement Social Communautaire.',
+        'baseline': 'Etude Sociale de base de référence',
 
 
         // Section Équipe
@@ -437,13 +441,27 @@ const translations = {
         'team.ceo.modal.title': 'FREDDY SHAMWANA',
         'team.ceo.modal.position': 'Directeur Exécutif',
         'team.ceo.modal.description1': 'Freddy Shamwana est Directeur Exécutif chez AES CONSULTING en République Démocratique du Congo et au Royaume-Uni. Il est responsable du développement des affaires, de la gouvernance environnementale et sociale, ainsi que des politiques de durabilité.',
+
+        'son.expert': 'Son expertise couvre un large éventail de domaines incluant :',
+        "team.stakeholders": "L'engagement efficace des parties prenantes;",
+        "team.governance": "La gouvernance environnementale et sociale;",
+        "team.resettlement": "La planification et mise en œuvre des réinstallations;",
+        "team.impact": "L'impact du développement pour les projets à grande échelle dans l'industrie extractive.",
+        "team.knowledge": "Il possède une connaissance approfondie de la législation de la RDC pour divers secteurs, principalement les mines, l'agriculture, l'eau, la foresterie et l'énergie.",
+        "team.experience": "Son expérience a été acquise à travers divers rôles dans la gestion de projets pour les investissements en partenariat public-privé, ainsi que dans l'évaluation des impacts environnementaux et sociaux en RDC, au Congo Brazzaville, au Cameroun et au Mali.",
+
         'team.ceo.modal.expertise_title': 'Domaines d\'expertise :',
         'team.ceo.modal.expertise1': 'Gouvernance ESG',
         'team.ceo.modal.expertise2': 'Développement Durable',
         'team.ceo.modal.expertise3': 'Industrie Minière',
         'team.ceo.modal.expertise4': 'Énergie Renouvelable',
         'team.ceo.modal.expertise5': 'Gestion de l\'Eau',
+        'team.ceo.modal.expertise6':'Agro-industrie',
+        'team.ceo.modal.expertise7':'changement climatique',
+        'team.ceo.modal.expertise8':'Crédit carbone',
+        'team.ceo.modal.expertise9':'Foresteries',
         'team.ceo.modal.education': 'Formation :',
+        'ceo.educ':' Freddy est titulaire d\'un Master en Stratégie Environnementale et Développement Durable de l\'Université de Surrey au Royaume-Uni (2010).',
 
         // Jean-Didier Mualaba
         'team.comm.name': 'JEAN-DIDIER MUALABA',
@@ -454,13 +472,21 @@ const translations = {
         'team.comm.modal.position': 'Directeur',
         'team.comm.modal.description1': 'Jean-Didier MUALABA est un praticien engagé du développement communautaire et environnemental avec de nombreuses années d\'expérience dans le développement et le monitoring de la conformité environnementale avec la législation actuelle en matière d\'émissions, de pollution, d\'empreinte carbone et de gestion des déchets.',
         'team.comm.modal.skills_title': 'Compétences clés :',
-        'team.comm.modal.skill1': 'Expérience considérable dans la formulation de politiques environnementales, procédures et bonnes pratiques',
-        'team.comm.modal.skill2': 'Réalisation d\'études d\'impact environnemental et mise en œuvre de solutions durables',
-        'team.comm.modal.skill3': 'Monitoring et revue des performances environnementales',
-        'team.comm.modal.skill4': 'Implication des communautés locales dans les processus de régénération et développement',
+        'team.comm.modal.skill1': 'Expérience considérable dans la formulation de politiques environnementales, procédures et bonnes pratiques;',
+        'team.comm.modal.skill2': 'Réalisation d\'études d\'impact environnemental et mise en œuvre de solutions durables;',
+        'team.comm.modal.skill3': 'Monitoring et revue des performances environnementales;',
+        'team.comm.modal.skill4': 'Implication des communautés locales dans les processus de régénération et développement.',
+
         'team.comm.modal.community_title': 'Engagement communautaire :',
+
+        'team.comm.modal.community_title1': 'Jean-Didier possède une expérience significative dans l\'implication des communautés des zones défavorisées dans les processus de régénération et de développement local, leur donnant ainsi l\'opportunité de faire partie des solutions aux problèmes qui affectent leurs quartiers.',
+
         'team.comm.modal.relationships_title': 'Compétences relationnelles :',
+        'team.comm.modal.relationships_title1': 'Capacités d\'audit et aptitude à communiquer avec des interlocuteurs de tous niveaux, y compris les cadres dirigeants, le personnel, les contractants externes et les professionnels de l\'environnement.',
+
         'team.comm.modal.profile_title': 'Profil professionnel :',
+        'team.comm.modal.profile_title1': 'Professionnel autonome et motivé, talentueux pour développer et favoriser des solutions créatives et innovantes. Forte capacité à respecter les délais et à gérer efficacement les relations avec les clients et les contacts externes de l\'entreprise.',
+
         'team.comm.modal.expertise_title': 'Domaines d\'expertise :',
         'team.comm.modal.expertise1': 'Conformité Environnementale',
         'team.comm.modal.expertise2': 'Développement Communautaire',
@@ -473,13 +499,13 @@ const translations = {
         'contact_us': 'Contactez-nous',
         'lets_get': 'Restons',
         'in_touch': 'en contact',
-        'contact_description':'Veuillez nous contacter, a travers les informations ci-dessous :',
+        'contact_description': 'Veuillez nous contacter, a travers les informations ci-dessous :',
         'contact_info': 'Nos Informations de Contact:',
         'uk_office': 'Bureau UK',
         'drc_office': 'Bureau Kinshasa',
-        'lub_office':'Bureau Lubumbashi',
+        'lub_office': 'Bureau Lubumbashi',
         'phone_rdc': 'Téléphone RDC',
-        'phone_uk':'Téléphone UK',
+        'phone_uk': 'Téléphone UK',
         'hours': 'Horaires d\'ouverture',
         'weekdays': 'Lundi - Vendredi : 9h - 18h',
         'weekend': 'Week-end : Fermé',
@@ -539,6 +565,7 @@ const translations = {
         'nav.gallery': 'Gallery',
         'nav.contact': 'Contact',
         'nav.brochure': 'Download Brochure',
+        'nav.list':'List Of Projects',
         'nav.language': 'Language',
 
         // Hero Section Biodiversity
@@ -546,129 +573,129 @@ const translations = {
         'hero.Environmental': 'Assessment & Sustainable Management Plan',
 
         //hero section Social
-        'hero.social':'Corporate Social',
-        'hero.communities':'Responsibility Policies',
+        'hero.social': 'Corporate Social',
+        'hero.communities': 'Responsibility Policies',
 
         //hero section water
-        'hero.water':'Hydrogeology ',
-        'hero.hydro':'Survey',
+        'hero.water': 'Hydrogeology ',
+        'hero.hydro': 'Survey',
 
         //hero section
-        'hero.sustainable':'Sustainability of',
-        'hero.industries':'Industries and Process',
+        'hero.sustainable': 'Sustainability of',
+        'hero.industries': 'Industries and Process',
 
         //hero socio-ecomic
-        'hero.socio_econom':'Socio-economic ',
-        'hero.impact':'Impact Assessment',
+        'hero.socio_econom': 'Socio-economic ',
+        'hero.impact': 'Impact Assessment',
 
         //hero hydrology
-       'hero.natural':'Natural Water',
-       'hero.ressources':'Ressources Management',
+        'hero.natural': 'Natural Water',
+        'hero.ressources': 'Ressources Management',
 
         //environemental
-       'hero.environmental':'Environmental',
-       'hero.assessment':'Impact Assessment',
+        'hero.environmental': 'Environmental',
+        'hero.assessment': 'Impact Assessment',
 
-       //land agriculture
-       'hero.identification':'Identification',
-       'hero.land':'of Land Agriculture',
+        //land agriculture
+        'hero.identification': 'Identification',
+        'hero.land': 'of Agriculture Land',
 
-          //social baseline
-       'hero.baseline':'Social',
-       'hero.soc':'baseline studies',
+        //social baseline
+        'hero.baseline': 'baseline studies',
+        'hero.soc': 'Social',
 
-       //Flora Survey
-        'hero.fauna':'Fauna &',
-       'hero.flora':'Flora Survey',
+        //Flora Survey
+        'hero.fauna': 'Fauna &',
+        'hero.flora': 'Flora Survey',
 
 
-       //community index
-       'hero.com':'Community Social',
-       'hero.devindex':'Development Index Studies',
+        //community index
+        'hero.com': 'Social Development Index',
+        'hero.devindex': 'Studies for Communities',
 
-       //aquatic
-       'hero.wetland':'Aquatic and',
-       'hero.aquatic':'Wetland Assessment',
+        //aquatic
+        'hero.aquatic': 'Aquatic and',
+        'hero.wetland': 'Wetland Assessment ',
 
-       //geological survey
-       'hero.geolo':'Geological',
-       'hero.survey':'Survey',
+
+        //geological survey
+        'hero.geolo': 'Geological',
+        'hero.survey': 'Survey',
 
         //services text
-        'services1':"Our",
-        'services2':"Services",
-        'services3':"African Environmental and Sustainability Consulting (AES Consulting) provides services for environmental and social studies, by delivering high quality services and specific solutions in the following areas:",
+        'services1': "Our",
+        'services2': "Services",
+        'services3': "African Environmental and Sustainability Consulting (AES Consulting) provides services for environmental and social studies, by delivering high quality services and specific solutions in the following areas:",
 
         // Services Cards
         'services.bio.title': 'BIOPHYSICAL ENVIRONMENT',
         'services.bio.desc': 'Comprehensive environmental assessments and mitigation strategies.',
-        'env.study':'Environmental study',
-        'env.management':'Environmental Management Plan',
+        'env.study': 'Environmental study',
+        'env.management': 'Environmental Management Plan',
         'services.view_all': 'View All',
 
         // Modal Bio Environment
         'modal.bio.title': 'Biophysical Environment',
         'modal.close': 'Close',
 
-        'services.bio.item1': 'Environmental study',
+        'services.bio.item1': 'Environmental Study',
         'services.bio.item2': 'Environmental Management Plan (for small and large scale mining),',
         'services.bio.item3': 'Fauna and Flora Assessment',
-        'services.bio.item4': 'Aquatic and wetland Assessment',
-        'services.bio.item5': 'Strategic Environmental and Social Assessment',
-        'services.bio.item6': 'RSPO (Round Table for Sustainable Palm Oil) surveys',
-        'services.bio.item7': 'High Conservation Value of biological species Assessment',
-        'services.bio.item8': 'Biodiversity compensation/off set Plan',
+        'services.bio.item4': 'Aquatic and Wetland Assessment',
+        'services.bio.item5': '',
+        'services.bio.item6': 'RSPO (Round Table for Sustainable Palm Oil) Surveys',
+        'services.bio.item7': 'High Conservation Value of Biological Species Assessment',
+        'services.bio.item8': 'Biodiversity Compensation/off Set Plan',
         'services.bio.item9': 'Biodiversity Action Plan',
-        'services.bio.item10': 'Rehabilitation and closure Plan of contaminated sites',
-        'services.bio.item11': 'Environmental audit',
+        'services.bio.item10': 'Rehabilitation and Closure Plan of Contaminated Sites',
+        'services.bio.item11': 'Environmental Audit',
         'services.bio.item12': 'Due Diligence for Environmental and Social Risks',
         'services.bio.item13': 'Compliance Report',
-        'services.bio.item14': 'Activity Report',
+        'services.bio.item14': 'Activities Report',
         'services.bio.item15': 'Mitigation and Rehabilitation Plan ',
-        'services.bio.item16':'Strategic Environmental Study',
-        'services.social.item17':'Plan d’Atténuation et Réhabilitation',
+        'services.bio.item16': 'Strategic Environmental Study',
+        'services.social.item17': 'Plan d’Atténuation et Réhabilitation',
 
         //services social
         'services.social.title': 'SOCIAL ENVIRONMENT',
         'services.social.desc': 'Fostering harmony between business and community.',
-        'socio-economic':'Socio-economic impact Assessment',
-        'resettlement':'Resettlement Action Plan',
-        'social.close':'View All',
+        'socio-economic': 'Socio-economic impact Assessment',
+        'resettlement': 'Resettlement Action Plan',
+        'social.close': 'View All',
         //modal social environement
         'modal.social.title': 'Social Environment',
 
-        'services.social.item1': 'Socio-economic impact Assessment',
+        'services.social.item1': 'Socio-Economic Impact Assessment',
         'services.social.item2': 'Resettlement Action Plan',
         'services.social.item3': 'Social Management Plan',
-        'services.social.item4': 'Development of Corporate Social Responsibility policies',
-        'services.social.item5': 'Compliance audit for social standards',
+        'services.social.item4': 'Development of Corporate Social Responsibility Policies',
+        'services.social.item5': 'Compliance Audit for Social Standards',
         'services.social.item6': 'Sustainability Report',
-        'services.social.item7': 'Stakeholders Engagement',
+        'services.social.item7': 'Stakeholders Engagement Plan',
         'services.social.item8': 'Community Relations Management',
-        'services.social.item9': 'Development of mechanism for Conflict and Complaint Management',
+        'services.social.item9': 'Development of Mechanism for Conflict and Complaint Management',
         'services.social.item10': 'Company and Community Relation Assessment',
         'services.social.item11': 'Community Project Plan for Sustainable Development',
-        'services.social.item12':'Stakeholders Engagement Plan',
 
         //Hydrogeology et hydrology
         'services.hydro.title': 'HYDROGEOLOGY & HYDROLOGY',
         'services.hydro.desc': 'Together, we protect water and promote sustainable growth.',
-        'groundwater':'Groundwater and surface water flux Assessment.',
-        'execution':'Execution of potable water drilling.',
-        'hydro.view':'View All',
+        'groundwater': 'Groundwater and surface water flux Assessment.',
+        'execution': 'Execution of potable water drilling.',
+        'hydro.view': 'View All',
 
         //modal hydrogeology et hydrology
         'modal.hydro.title': 'HYDROGEOLOGY & HYDROLOGY',
 
-        'services.hydro.item1': 'Groundwater and surface water flux Assessment',
+        'services.hydro.item1': 'Groundwater and Surface Water Flux Assessment',
         'services.hydro.item2': 'Technical and financial feasibility study for borehole drilling and installation of water distribution networks',
-        'services.hydro.item3': 'Execution of potable water drilling',
+        'services.hydro.item3': 'Execution of Potable Water Drilling',
         'services.hydro.item4': 'Determination of contaminated areas prohibited for potable water drilling',
         'services.hydro.item5': 'Risk Assessment for pollution control',
         'services.hydro.item6': 'Maintenance of water borehole',
         'services.hydro.item7': 'Pumping tests and determination of level of flux water of borehole',
         'services.hydro.item8': 'Monitoring of water drilling works',
-        'services.hydro.item9': 'Water monitoring',
+        'services.hydro.item9': 'Water Monitoring',
         'services.hydro.item10': 'Stormwater Management and Assessment',
         'services.hydro.item11': 'Hydrogeological Impact Assessment',
         'services.hydro.item12': 'Hydrological and hydraulical Assessment of watersheds',
@@ -676,12 +703,12 @@ const translations = {
         //services geotechnic
         'services.geo.title': 'GEOTECHNIC',
         'services.geo.desc': 'Ensuring safe and stable ground for every project.',
-        'surveys':'Surveys and test in situ.',
-        'rock':'Rock mechanics; concrete and soil',
-        'geotechnic.view':'View All',
+        'surveys': 'Surveys and test in situ.',
+        'rock': 'Rock mechanics; concrete and soil',
+        'geotechnic.view': 'View All',
 
         //modal geotechnic
-         'modal.geo.title': 'GEOTECHNIC',
+        'modal.geo.title': 'GEOTECHNIC',
 
         'services.geo.item1': 'Surveys and test in situ',
         'services.geo.item2': 'Soil feature and sampling: diamond drilling, destructive testing, auger, shovel',
@@ -694,9 +721,9 @@ const translations = {
         //service training
         'services.training.title': 'TRAINING',
         'services.training.desc': 'Empowering skills for growth.',
-        'environ.maneg':'Environmental management.',
-        'health':'Health and Safety at work.',
-        'health.view':'View All',
+        'environ.maneg': 'Environmental management.',
+        'health': 'Health and Safety at work.',
+        'health.view': 'View All',
 
         //modal training
         'modal.training.title': 'TRAINING',
@@ -729,7 +756,7 @@ const translations = {
 
         // Agro industries
         'sectors.agro.title': 'Agro industries',
-        'sectors.agro.description': 'Palm oil plantation, Hevea Plantation, other types of Plantations.',
+        'sectors.agro.description': 'Palm Oil Plantations, Hevea Plantation, other types of Plantations.',
 
         // Energy
         'sectors.energy.title': 'Energy',
@@ -741,7 +768,7 @@ const translations = {
 
         // Education
         'sectors.education.title': 'Education',
-        'sectors.education.description': 'Education project',
+        'sectors.education.description': 'Education Projects',
 
         // Infrastructure
         'sectors.infrastructure.title': 'Infrastructures',
@@ -749,16 +776,16 @@ const translations = {
 
         // Geotechnical
         'sectors.geotechnical.title': 'Geotechnical',
-        'sectors.geotechnical.description': 'Drilling, Mechanical Tests and Soil identification.',
+        'sectors.geotechnical.description': 'Drilling, Mechanical Tests and Soil Identification.',
 
         // IT
         'sectors.it.title': 'Information Technology',
         'sectors.it.description': 'Database Software & Applications',
 
         //mission
-        'contribute':'Contribute to Sustainable Development of Africa.',
-        'mission':'MISSION',
-        'our':'OUR',
+        'contribute': 'Contribute to Sustainable Development of Africa.',
+        'mission': 'MISSION',
+        'our': 'OUR',
 
         // Sections
         'section.missions': 'Our Missions',
@@ -766,31 +793,31 @@ const translations = {
         'section.actions': 'Our Sectors',
         'section.contact': 'Contact Us',
 
-         //gallery
-        'section.our':'OUR',
-        'section.project':'GALLERY',
-        'discover':'Discover our environmental projects and sustainable solutions in action',
-        'gal':'gallery',
-        'all_proj':'All',
-        'mining':'Mining',
-        'energy':'Energy',
-        'water':'Hydrology',
-        'community':'Social',
-        'agriculture':'Agriculture',
+        //gallery
+        'section.our': 'OUR',
+        'section.project': 'GALLERY',
+        'discover': 'Discover our environmental projects and sustainable solutions in action',
+        'gal': 'gallery',
+        'all_proj': 'All',
+        'mining': 'Mining',
+        'energy': 'Energy',
+        'water': 'Hydrology',
+        'community': 'Social',
+        'agriculture': 'Agriculture',
 
         //translate photo
-        'hydrol':'Hydrology Survey',
-        'identif':'Identification of Land Agriculture',
-        'eco.studies':'Socio-economic studies',
-        'energi.tracking':'Tracking of power line ',
-        'artisanal':'Artisanal Mining Impact Assessment',
-        'gal.enviro':'Environmental Impact Assessment for Mining',
-        'gal.aquatic':'Aquatic Assessment',
-        'gal.fied':'Fied visit for geological survey',
-        'gal.ress.hydrol':'Hydrolic Resources Survey',
-        'gal.faune':'Fauna & Flora Study',
-        'gal.com.social':'Community Social Index Development Study',
-        'baseline':'Social Baseline Study',
+        'hydrol': 'Hydrology Survey',
+        'identif': 'Identification of Agriculture Land',
+        'eco.studies': 'Socio-economic studies',
+        'energi.tracking': 'Tracking of power line ',
+        'artisanal': 'Artisanal Mining Impact Assessment',
+        'gal.enviro': 'Environmental Impact Assessment for Mining',
+        'gal.aquatic': 'Aquatic Assessment',
+        'gal.fied': 'Fied visit for geological survey',
+        'gal.ress.hydrol': 'Hydrolic Resources Survey',
+        'gal.faune': 'Fauna & Flora Study',
+        'gal.com.social': 'Community Social Index Development Study',
+        'baseline': 'Social Baseline Study',
 
         // Team Section
         'team.subtitle': 'Our Team',
@@ -806,13 +833,27 @@ const translations = {
         'team.ceo.modal.title': 'FREDDY SHAMWANA',
         'team.ceo.modal.position': 'Executive Director',
         'team.ceo.modal.description1': 'Freddy Shamwana is Executive Director at AES CONSULTING in Democratic Republic of Congo and United Kingdom. He is responsible for business development, environmental and social governance, as well as sustainability policies.',
+
+        'son.expert': 'His expertise covers a wide range of areas including:',
+        "team.stakeholders": "Effective stakeholder engagement;",
+        "team.governance": "Environmental and social governance;",
+        "team.resettlement": "Planning and implementation of resettlements;",
+        "team.impact": "Development impact for large-scale projects in the extractive industry.",
+        "team.knowledge": "He has an in-depth knowledge of DRC legislation for various sectors, mainly mining, agriculture, water, forestry and energy.",
+        "team.experience": "His experience was gained through various roles in project management for public-private partnership investments, as well as in the assessment of environmental and social impacts in DRC, Congo Brazzaville, Cameroon and Mali.",
+
         'team.ceo.modal.expertise_title': 'Areas of expertise :',
         'team.ceo.modal.expertise1': 'ESG Governance',
         'team.ceo.modal.expertise2': 'Sustainable Development',
         'team.ceo.modal.expertise3': 'Mining Industry',
         'team.ceo.modal.expertise4': 'Renewable Energy',
         'team.ceo.modal.expertise5': 'Water Management',
+        'team.ceo.modal.expertise6':'Agro-industry',
+        'team.ceo.modal.expertise7':'Climate change',
+        'team.ceo.modal.expertise8':'Carbon credits',
+        'team.ceo.modal.expertise9':'Forestry',
         'team.ceo.modal.education': 'Education :',
+        'ceo.educ':'Freddy holds a Master’s degree in Environmental Strategy and Sustainable Development from the University of Surrey, United Kingdom (2010).',
 
         // Jean-Didier Mualaba
         'team.comm.name': 'JEAN-DIDIER MUALABA',
@@ -823,13 +864,21 @@ const translations = {
         'team.comm.modal.position': 'Director',
         'team.comm.modal.description1': 'Jean-Didier MUALABA is a committed community and environmental development practitioner with many years of experience in developing and monitoring environmental compliance with current legislation on emissions, pollution, carbon footprint and waste management.',
         'team.comm.modal.skills_title': 'Key skills :',
-        'team.comm.modal.skill1': 'Considerable experience in formulating environmental policies, procedures and best practices',
-        'team.comm.modal.skill2': 'Conducting environmental impact assessments and implementing sustainable solutions',
-        'team.comm.modal.skill3': 'Monitoring and reviewing environmental performance',
-        'team.comm.modal.skill4': 'Involving local communities in regeneration and development processes',
+        'team.comm.modal.skill1': 'Considerable experience in formulating environmental policies, procedures and best practices;',
+        'team.comm.modal.skill2': 'Conducting environmental impact assessments and implementing sustainable solutions;',
+        'team.comm.modal.skill3': 'Monitoring and reviewing environmental performance;',
+        'team.comm.modal.skill4': 'Involving local communities in regeneration and development processes.',
         'team.comm.modal.community_title': 'Community engagement :',
+
+        'team.comm.modal.community_title1': 'Jean-Didier has significant experience in engaging disadvantaged communities in regeneration and local development processes, giving them the opportunity to be part of the solutions to the problems affecting their neighborhoods.',
+
         'team.comm.modal.relationships_title': 'Relationship skills :',
+
+        'team.comm.modal.relationships_title1': 'Auditing skills and the ability to communicate with stakeholders at all levels, including senior executives, staff, external contractors, and environmental professionals.',
         'team.comm.modal.profile_title': 'Professional profile :',
+
+        'team.comm.modal.profile_title1': 'Self-motivated and independent professional, skilled at developing and fostering creative and innovative solutions. Strong ability to meet deadlines and effectively manage relationships with clients and external business contacts.',
+
         'team.comm.modal.expertise_title': 'Areas of expertise :',
         'team.comm.modal.expertise1': 'Environmental Compliance',
         'team.comm.modal.expertise2': 'Community Development',
@@ -846,7 +895,7 @@ const translations = {
         'contact_info': 'Our Contact Information',
         'uk_office': 'UK Office',
         'drc_office': 'Kinshasa Office',
-        'lub_office':'Lubumbashi Office',
+        'lub_office': 'Lubumbashi Office',
         'phone_rdc': 'Phone DRC',
         'phone_uk': 'Phone UK',
         'hours': 'Opening Hours',
@@ -977,7 +1026,7 @@ function updateMetaTags(lang) {
 
 // ==================== INITIALISATION ====================
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Charger la langue sauvegardée ou détecter
     const savedLanguage = localStorage.getItem('preferredLanguage');
     const browserLanguage = navigator.language.split('-')[0];

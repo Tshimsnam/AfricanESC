@@ -27,7 +27,7 @@
                 <h3 class="text-2xl font-bold text-gray-900 mb-2" data-translate="team.comm.name">JEAN-DIDIER MUALABA
                 </h3>
                 <p class="text-green-600 font-semibold mb-4" data-translate="team.comm.position">Directeur
-                    </p>
+                </p>
                 <p class="text-gray-600 mb-4 line-clamp-3" data-translate="team.comm.short_desc">
                     Jean-Didier est un praticien engagé du développement communautaire et environnemental avec de
                     nombreuses années d'expérience dans le développement et le monitoring de la conformité
@@ -51,8 +51,7 @@
                         </button>
 
                         <div class="text-center mb-6">
-                            <img src="{{ asset('images/director.jpg') }}"
-                                alt="JEAN-DIDIER MUALABA - Director"
+                            <img src="{{ asset('images/director.jpg') }}" alt="JEAN-DIDIER MUALABA - Director"
                                 class="w-40 h-40 rounded-full mx-auto object-cover border-4 border-green-100 mb-4">
                             <h3 class="text-3xl font-bold text-gray-900 mb-2" data-translate="team.comm.modal.title">
                                 JEAN-DIDIER MUALABA</h3>
@@ -85,24 +84,30 @@
 
                             <p class="mb-4">
                                 <strong data-translate="team.comm.modal.community_title">Engagement communautaire
-                                    :</strong> Jean-Didier possède une expérience significative dans l'implication des
-                                communautés des zones défavorisées dans les processus de régénération et de
-                                développement local, leur donnant ainsi l'opportunité de faire partie des solutions aux
-                                problèmes qui affectent leurs quartiers.
+                                    :</strong> <span data-translate="team.comm.modal.community_title1">Jean-Didier
+                                    possède une expérience significative dans l'implication des
+                                    communautés des zones défavorisées dans les processus de régénération et de
+                                    développement local, leur donnant ainsi l'opportunité de faire partie des solutions
+                                    aux
+                                    problèmes qui affectent leurs quartiers.</span>
                             </p>
 
                             <p class="mb-4">
                                 <strong data-translate="team.comm.modal.relationships_title">Compétences relationnelles
-                                    :</strong> Capacités d'audit et aptitude à communiquer avec des interlocuteurs de
-                                tous niveaux, y compris les cadres dirigeants, le personnel, les contractants externes
-                                et les professionnels de l'environnement.
+                                    :</strong> <span data-translate="team.comm.modal.relationships_title1">Capacités
+                                    d'audit et aptitude à communiquer avec des interlocuteurs de
+                                    tous niveaux, y compris les cadres dirigeants, le personnel, les contractants
+                                    externes
+                                    et les professionnels de l'environnement. </span>
                             </p>
 
                             <p class="mb-4">
                                 <strong data-translate="team.comm.modal.profile_title">Profil professionnel :</strong>
-                                Professionnel autonome et motivé, talentueux pour développer et favoriser des solutions
-                                créatives et innovantes. Forte capacité à respecter les délais et à gérer efficacement
-                                les relations avec les clients et les contacts externes de l'entreprise.
+                                <span data-translate="team.comm.modal.profile_title1">Professionnel autonome et motivé,
+                                    talentueux pour développer et favoriser des solutions
+                                    créatives et innovantes. Forte capacité à respecter les délais et à gérer
+                                    efficacement
+                                    les relations avec les clients et les contacts externes de l'entreprise.</span>
                             </p>
 
                             <div class="bg-green-50 rounded-lg p-4 mt-6">
@@ -178,33 +183,33 @@
                                 gouvernance environnementale et sociale, ainsi que des politiques de durabilité.
                             </p>
 
-                            <p class="mb-4">
+                            <p class="mb-4" data-translate="son.expert">
                                 Son expertise couvre un large éventail de domaines incluant :
                             </p>
-
                             <ul class="list-disc list-inside mb-4 ml-4">
-                                <li>L'engagement efficace des parties prenantes</li>
-                                <li>La gouvernance environnementale et sociale</li>
-                                <li>La planification et mise en œuvre des réinstallations</li>
-                                <li>L'impact du développement pour les projets à grande échelle dans l'industrie
-                                    extractive</li>
+                                <li data-translate="team.stakeholders">L'engagement efficace des parties prenantes</li>
+                                <li data-translate="team.governance">La gouvernance environnementale et sociale</li>
+                                <li data-translate="team.resettlement">La planification et mise en œuvre des
+                                    réinstallations</li>
+                                <li data-translate="team.impact">L'impact du développement pour les projets à grande
+                                    échelle dans l'industrie extractive</li>
                             </ul>
 
-                            <p class="mb-4">
+                            <p class="mb-4" data-translate="team.knowledge">
                                 Il possède une connaissance approfondie de la législation de la RDC pour divers
                                 secteurs, principalement les mines, l'agriculture, l'eau, la foresterie et l'énergie.
                             </p>
 
-                            <p class="mb-4">
+                            <p class="mb-4" data-translate="team.experience">
                                 Son expérience a été acquise à travers divers rôles dans la gestion de projets pour les
                                 investissements en partenariat public-privé, ainsi que dans l'évaluation des impacts
                                 environnementaux et sociaux en RDC, au Congo Brazzaville, au Cameroun et au Mali.
                             </p>
 
                             <p class="mb-4">
-                                <strong data-translate="team.ceo.modal.education">Formation :</strong> Freddy est
+                                <strong data-translate="team.ceo.modal.education">Formation :</strong><span data-translate="ceo.educ"> Freddy est
                                 titulaire d'un Master en Stratégie Environnementale et Développement Durable de
-                                l'Université de Surrey au Royaume-Uni (2010).
+                                l'Université de Surrey au Royaume-Uni (2010).</span>
                             </p>
 
                             <div class="bg-green-50 rounded-lg p-4 mt-6">
@@ -221,6 +226,14 @@
                                         data-translate="team.ceo.modal.expertise4">Énergie Renouvelable</span>
                                     <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm"
                                         data-translate="team.ceo.modal.expertise5">Gestion de l'Eau</span>
+                                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm"
+                                        data-translate="team.ceo.modal.expertise6">Agro-industry</span>
+                                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm"
+                                        data-translate="team.ceo.modal.expertise7">changement climatique</span>
+                                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm"
+                                        data-translate="team.ceo.modal.expertise8">Carbon credit</span>
+                                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm"
+                                        data-translate="team.ceo.modal.expertise9">foresteries</span>
                                 </div>
                             </div>
                         </div>

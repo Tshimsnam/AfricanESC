@@ -28,3 +28,4 @@ Route::get('/gallery', function () {
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/download/brochure', [BrochureController::class, 'download'])->name('download.brochure');
+Route::get('/download/listOfProjetc',[BrochureController::class,'listeOfProject'])->name('download.listeOfProject');

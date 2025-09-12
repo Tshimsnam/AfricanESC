@@ -1,4 +1,4 @@
-<nav class="bg-white shadow-md sticky top-0 z-50 transition-all duration-300" id="navbar">
+<nav class="bg-white shadow-md sticky top-0 z-[9999] transition-all duration-300" id="navbar">
     <div class="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
         <div class="flex justify-between h-20 items-center">
             <!-- Logo -->
@@ -12,7 +12,7 @@
             </div>
 
             <!-- Menu Desktop -->
-            <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
+            <div class="hidden md:flex items-center space-x-2 lg:space-x-3">
                 <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')" class="text-sm">
                     <span data-translate="nav.home">Home</span>
                 </x-nav-link>
@@ -38,7 +38,7 @@
                 </x-nav-link>
 
                 <!-- Sélecteur de langue Desktop -->
-                <div class="language-switcher-desktop ml-3">
+                <div class="language-switcher-desktop ml-2 relative">
                     <select id="languageSelectDesktop" onchange="changeLanguage(this.value)"
                         class="bg-white border border-gray-300 rounded-full px-2 py-1 pr-6 shadow-sm hover:shadow-md transition-shadow focus:outline-none focus:ring-2 focus:ring-green-500 appearance-none cursor-pointer text-xs">
                         <option value="fr">🇫🇷 FR</option>
@@ -49,11 +49,19 @@
                     </div>
                 </div>
 
-                <a href="{{ route('download.brochure') }}"
-                    class="ml-2 px-4 py-1.5 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-xs">
-                    <i class="fas fa-download mr-1 text-xs"></i>
-                    <span data-translate="nav.brochure">Brochure</span>
-                </a>
+                <!-- Boutons de téléchargement groupés -->
+                <div class="flex items-center space-x-1 ml-1">
+                    <a href="{{ route('download.brochure') }}"
+                        class="px-3 py-1.5 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-xs">
+                        <i class="fas fa-download mr-1 text-xs"></i>
+                        <span data-translate="nav.brochure">Brochure</span>
+                    </a>
+                    <a href="{{ route('download.listeOfProject') }}"
+                        class="px-3 py-1.5 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition duration-300 flex items-center text-xs">
+                        <i class="fas fa-list mr-1 text-xs"></i>
+                        <span data-translate="nav.list">Projects</span>
+                    </a>
+                </div>
             </div>
 
             <!-- Right Section -->
@@ -90,7 +98,7 @@
                 <i class="fas fa-industry mr-3 text-green-600"></i> <span data-translate="nav.sectors">Sectors</span>
             </x-mobile-nav-link>
             <x-mobile-nav-link href="{{ route('gallery') }}" :active="request()->is('*gallery*')">
-                <i class="fas fa-hard-hat mr-3 text-green-600"></i> <span data-translate="nav.gallery">Gallery</span>
+                <i class="fa-solid fa-image mr-3 text-green-600"></i> <span data-translate="nav.gallery">Gallery</span>
             </x-mobile-nav-link>
             <x-mobile-nav-link href="{{ route('contact') }}" :active="request()->is('*contact*')">
                 <i class="fas fa-envelope mr-3 text-green-600"></i> <span data-translate="nav.contact">Contact</span>
@@ -106,10 +114,17 @@
                 </select>
             </div>
 
-            <x-mobile-nav-link href="{{ route('download.brochure') }}"
-                class="bg-green-600 text-white justify-center mt-2">
-                <i class="fas fa-download mr-2"></i> <span data-translate="nav.brochure">Download Brochure</span>
-            </x-mobile-nav-link>
+            <!-- Boutons de téléchargement version mobile -->
+            <div class="grid grid-cols-1 gap-2 mt-3 border-t border-gray-100 pt-3">
+                <x-mobile-nav-link href="{{ route('download.brochure') }}"
+                    class="bg-green-600 text-white justify-center">
+                    <i class="fas fa-download mr-2"></i> <span data-translate="nav.brochure">Download Brochure</span>
+                </x-mobile-nav-link>
+                <x-mobile-nav-link href="{{ route('download.listeOfProject') }}"
+                    class="bg-green-700 text-white justify-center">
+                    <i class="fas fa-list mr-2"></i> <span data-translate="nav.list">List of Projects</span>
+                </x-mobile-nav-link>
+            </div>
         </div>
     </div>
 </nav>
@@ -117,6 +132,12 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 
+    #navbar {
+            position: sticky !important;
+            top: 0 !important;
+            z-index: 1000 !important;
+            width: 100% !important;
+        }
     /* Style pour les sélecteurs de langue */
     .language-switcher-desktop {
         position: relative;
